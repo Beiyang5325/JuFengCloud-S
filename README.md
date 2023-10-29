@@ -12,6 +12,6 @@
 其实这款软件的含金量并不高，也就是复杂程度并不高。
 ## 其他命令段：
 1、MC-BE服务器 Termux 安装：
-```
+```ruby
 bash -c "$(curl -L https://iav.hucl.link2/f/yYqCY/install.sh)"
 ```
