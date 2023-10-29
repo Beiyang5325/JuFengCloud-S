@@ -4,7 +4,7 @@
 
 - [x] _**网页端：htts://iav.hucl.link/**_
 
->快点[点我](https://iav.huc.link/).
+>快点[点我](https://iav.hucl.link/).
 
 **~~数据不互通~~**
 
