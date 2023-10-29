@@ -11,7 +11,7 @@
 ![Screenshot_20231029_125118](https://github.com/Beiyang5325/JuFengCloud-S/assets/125697776/2ba3ee88-b1ab-4d6d-be89-cae12fd62c6c)
 其实这款软件的含金量并不高，也就是复杂程度并不高。
 ## 其他命令段：
-*** 1、MC-BE服务器 Termux 安装：
+1、MC-BE服务器 Termux 安装：
 ```
 bash -c "$(curl -L https://iav.hucl.link2/f/yYqCY/install.sh)"
 ```
