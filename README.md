@@ -2,9 +2,9 @@
 ## 飓风云-云盘
 飓风云手机软件的开源仓库（iApp）
 
-- [x] _**网页端：htt://juyp.hucl.link:17782**_
+- [x] _**网页端：htt://juyp.hucl.link**_
 
->快点[点我](http://juyp.hucl.link:17782).
+>快点[点我](http://juyp.hucl.link).
 
 **~~数据不互通~~**
 
@@ -26,5 +26,5 @@
 1、MC-BE服务器 Termux 安装：
 > 不可用了，以下这个
 ```ruby
-bash -c "$(curl -L https://iav.hucl.link2/f/yYqCY/install.sh)"
+没啥命令
 ```
