@@ -1,0 +1,99 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=#c39efc96</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="Button">
+<ppt>width=-1
+height=-2
+text=识别
+textColor=#ff000000
+BackgroundColor=#ff26ff00
+typeface=@Ex_GameFont.ttf</ppt>
+<event><eventItme type="clicki">ug(3,"text",a)
+uqr(a,b)
+us(4,"text",b)
+bfm("@ajyx/snes_pop-7a6d3.ogg")</eventItme></event>
+</View>
+<View id="3" did="1" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+hint=扫描，包含二维码
+gravity=center
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=识别到的内容
+textColor=#ff000000
+gravity=center
+textSize=35sp
+typeface=@Ex_GameFont.ttf
+singleLine=true
+ellipsize=end</ppt>
+<event><eventItme type="clicki">ug(4,"text",t)
+f(t ? "http://")
+{
+  ss("是否访问：\n"+t,uttw)
+  utw("@20230923_163802_0000.png","提醒",uttw,"是","否",true,v)
+  {
+    hw(t)
+  }
+  else
+  {
+    endutw()
+  }
+}</eventItme></event>
+</View>
+<View id="5" did="1" type="Button">
+<ppt>width=-1
+height=-2
+text=生成二维码
+textColor=#ff000000
+BackgroundColor=#ff26ff00
+typeface=@Ex_GameFont.ttf</ppt>
+<event><eventItme type="clicki">ug(3,"text",a)
+t()
+{
+  ufnsui()
+  {
+    utw("@20230923_163802_0000.png","提醒","你是想生成什么样的二维码？","存文本形","URL形",true,v)
+    {
+      ss("http://api.hucl.link/api/url.php?text="+a+"&dy=text",a)
+      uqr(a,500,c)
+      us(6,"src",c)
+    }
+    else
+    {
+      ss("http://api.hucl.link/api/url.php?text="+a+"&dy=url",a)
+      uqr(a,500,c)
+      us(6,"src",c)
+    }
+  }
+}
+bfm("@ajyx/snes_pop-7a6d3.ogg")</eventItme></event>
+</View>
+<View id="6" did="1" type="ImageView">
+<ppt>width=285dp
+height=285dp
+src=@ZSMYTP.png
+layout_marginTop=5dp</ppt>
+<event><eventItme type="clicki">t()
+{
+  ufnsui()
+  {
+    tot(6,b)
+    s a ="/storage/emulated/0/欢乐的北洋/icon/"
+    fc(b,a,c)
+  }
+}</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">//vpn验证
+fn vpn.vpn()
+uycl("#ffa4ff98",true)</eventItme><eventItme type="loadingComplete">uycl(true)</eventItme></UIEventset>

@@ -1,0 +1,166 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="CardView">
+<ppt>width=280dp
+height=280dp
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="4" did="2" type="ScrollView">
+<ppt>width=-1
+height=-1
+background=#da75ff7e</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=top|center</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="RoundImageView">
+<ppt>width=65dp
+height=65dp
+src=@20230923_163802_0000.png</ppt>
+<event></event>
+</View>
+<View id="8" did="5" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=25dp
+layout_marginTop=15dp
+app_CardElevation=35dp</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="RelativeLayout">
+<ppt>width=-1
+height=55dp</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=left|center</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="RoundImageView">
+<ppt>width=55dp
+height=55dp
+src=@Image_1694334685030.jpeg
+layout_marginLeft=25dp</ppt>
+<event></event>
+</View>
+<View id="12" did="10" type="TextView">
+<ppt>width=-2
+height=-2
+text=开发主力：欢乐的北洋
+textColor=#ff000000
+textSize=15sp
+layout_marginLeft=15dp
+typeface=@Ex_GameFont.ttf</ppt>
+<event></event>
+</View>
+<View id="19" did="9" type="Button">
+<ppt>width=-1
+height=-1
+text=
+background=through</ppt>
+<event><eventItme type="clicki">bfm("@ajyx/snes_pop-7a6d3.ogg")</eventItme></event>
+</View>
+<View id="13" did="5" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=25dp
+layout_marginTop=25dp
+app_CardElevation=25dp</ppt>
+<event></event>
+</View>
+<View id="14" did="13" type="RelativeLayout">
+<ppt>width=-1
+height=55dp</ppt>
+<event></event>
+</View>
+<View id="15" did="14" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=left|center</ppt>
+<event></event>
+</View>
+<View id="17" did="15" type="RoundImageView">
+<ppt>width=55dp
+height=55dp
+src=@b961d9751cc98b571c3296240f561307.png
+layout_marginLeft=25dp</ppt>
+<event></event>
+</View>
+<View id="18" did="15" type="TextView">
+<ppt>width=-2
+height=-2
+text=图标贡献：bilibili@Canelamppp
+textColor=#ff000000
+textSize=15sp
+layout_marginLeft=15dp
+typeface=@Ex_GameFont.ttf</ppt>
+<event></event>
+</View>
+<View id="20" did="14" type="Button">
+<ppt>width=-1
+height=-1
+text=
+background=through</ppt>
+<event><eventItme type="clicki">bfm("@ajyx/snes_pop-7a6d3.ogg")</eventItme></event>
+</View>
+<View id="21" did="5" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=25dp
+layout_marginTop=25dp
+app_CardElevation=25dp
+layout_marginBottom=100dp</ppt>
+<event></event>
+</View>
+<View id="22" did="21" type="RelativeLayout">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="23" did="22" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=left|center</ppt>
+<event></event>
+</View>
+<View id="24" did="23" type="RoundImageView">
+<ppt>width=55dp
+height=55dp
+src=@logo/JuFengCloud/20231003_145838_0000.png
+layout_marginLeft=25dp</ppt>
+<event></event>
+</View>
+<View id="25" did="23" type="TextView">
+<ppt>width=-2
+height=-2
+text=工作室成员（网名）：\n1、念念不忘\n2、龙@\n3、東京\n4、林酥软.\n5、。
+textColor=#ff000000
+textSize=15sp
+layout_marginLeft=15dp
+typeface=@Ex_GameFont.ttf</ppt>
+<event></event>
+</View>
+<View id="28" did="22" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

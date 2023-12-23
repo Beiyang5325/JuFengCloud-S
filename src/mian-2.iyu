@@ -1,0 +1,508 @@
+<View id="2" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=left|center
+BackgroundColor=#9f78ff7d</ppt>
+<event><eventItme type="clicki">f(sss.yz == "true")
+{
+  t()
+  {
+    ufnsui()
+    {
+      us(2,"height","180dp")
+      us(17,"visibility","visible")
+      //us(15,"visibility","gone")
+      us(19,"visibility","visible")
+      us(22,"visibility","visible")
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="5" did="2" type="ImageButton">
+<ppt>width=-2
+height=-2
+src=17301552
+background=through</ppt>
+<event><eventItme type="clicki">bfm("@ajyx/snes_pop-7a6d3.ogg")
+t()
+{
+  ufnsui()
+  {
+    s a ="@20230923_163802_0000.png"
+    s b ="问"
+    s c ="您是退出本页吗？"
+    s d ="退出本页"
+    s e ="后台化本页"
+    s f ="点错了"
+    utw(a,b,c,d,e,f,false,v)
+    {
+      bfm("@ajyx/snes_pop-7a6d3.ogg")
+      lan(0)
+      stop(1500)
+      end()
+    }
+    else
+    {
+      bfm("@ajyx/snes_pop-7a6d3.ogg")
+      uigo("mian1.iyu")
+      lan(0)
+    }
+    else
+    {
+      bfm("@ajyx/snes_pop-7a6d3.ogg")
+      endutw()
+      tw("是，是，是！！")
+    }
+  }
+}</eventItme><eventItme type="press">t()
+{
+  s yb ="@yy/cd1.mp3"
+  bfm(yb,bf,true)
+  bfms(bf,"sl",true)
+  ufnsui()
+  {
+    utw("@20230923_163802_0000.png","音乐","这是一个小彩蛋，你是怎么发现的呢？","关闭此彩蛋",true,v)
+    {
+      bfms(bf,"sp")
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="3" did="2" type="Button">
+<ppt>width=-2
+height=-2
+text=简单浏览器
+typeface=@Ex_GameFont.ttf
+textColor=#ff000000
+background=through</ppt>
+<event><eventItme type="clicki">uigo("mian-1.iyu")
+lan(0)
+bfm("@ajyx/snes_pop-7a6d3.ogg")</eventItme></event>
+</View>
+<View id="4" did="2" type="ImageButton">
+<ppt>width=35dp
+height=35dp
+src=@ea948e45312.png
+background=through</ppt>
+<event><eventItme type="clicki">hdduigo()
+bfm("@ajyx/snes_pop-7a6d3.ogg")</eventItme></event>
+</View>
+<View id="11" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=用手机浏\n览器打开
+textColor=#ff000000
+layout_marginLeft=5dp
+typeface=@Ex_GameFont.ttf
+textIsSelectable=true</ppt>
+<event><eventItme type="clicki">ug(1,"url",url1)
+hws(url1)
+bfm("@ajyx/snes_pop-7a6d3.ogg")</eventItme></event>
+</View>
+<View id="12" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=</ppt>
+<event></event>
+</View>
+<View id="13" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=刷新
+textColor=#ff000000
+textSize=25sp
+layout_marginLeft=5dp
+typeface=@Ex_GameFont.ttf
+textIsSelectable=true</ppt>
+<event><eventItme type="clicki">/.
+ug(mian-2.1,"url",url)
+tw("正在刷新中... ...",0)
+us(mian-2.1,"url",url)
+bfm("@ajyx/snes_pop-7a6d3.ogg")
+./
+f(sss.mian2 == "true")
+{
+  ug(mian-2.1,"url",url)
+  tw("正在刷新中... ...",0)
+  us(mian-2.1,"url",url)
+  bfm("@ajyx/snes_pop-7a6d3.ogg")
+}
+else f(sss.mian2 == "false")
+{
+  ug(1,"url",url)
+  tw("正在刷新中... ...",0)
+  us(1,"url",url)
+  bfm("@ajyx/snes_pop-7a6d3.ogg")
+}
+else
+{
+  ug(mian-2.1,"url",url)
+  tw("正在刷新中... ...",0)
+  us(mian-2.1,"url",url)
+  bfm("@ajyx/snes_pop-7a6d3.ogg")
+}</eventItme></event>
+</View>
+<View id="18" did="2" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="15" did="18" type="TextView">
+<ppt>width=-2
+height=-2
+text=xxxx
+textColor=#ff000000
+textSize=15sp
+layout_marginLeft=5dp
+visibility=gone
+typeface=@Ex_GameFont.ttf</ppt>
+<event><eventItme type="clicki">bfm("@ajyx/snes_pop-7a6d3.ogg")
+t()
+{
+  s a ="@20230923_163802_0000.png"
+  s b ="隐藏工具栏"
+  s c ="是否隐藏工具栏？\n返回可撤销隐藏\n单机一下工具栏看看"
+  s d ="是"
+  s f ="点错了"
+  ufnsui()
+  {
+    utw(a,b,c,d,f,true,v)
+    {
+      us(2,"visibility","gone")
+      endutw()
+    }
+    else
+    {
+      endutw()
+    }
+  }
+}
+ss yclm ="yes"</eventItme></event>
+</View>
+<View id="17" did="18" type="Button">
+<ppt>width=-2
+height=-2
+text=大化关闭
+textColor=#ff000000
+typeface=@Ex_GameFont.ttf
+background=through
+visibility=gone</ppt>
+<event><eventItme type="clicki">t()
+{
+  ufnsui()
+  {
+    us(2,"height","-2")
+    us(17,"visibility","gone")
+    us(15,"visibility","visible")
+    us(19,"visibility","gone")
+    us(22,"visibility","gone")
+  }
+}</eventItme></event>
+</View>
+<View id="19" did="18" type="Button">
+<ppt>width=-2
+height=-2
+text=上传文件\n到本目录
+textColor=#ff000000
+typeface=@Ex_GameFont.ttf
+gravity=center
+visibility=gone
+background=through</ppt>
+<event><eventItme type="clicki">bfm("@ajyx/snes_pop-7a6d3.ogg")
+ug(1,"url",url)
+t()
+{
+  ufnsui()
+  {
+    hw(url)
+  }
+}</eventItme></event>
+</View>
+<View id="20" did="18" type="Button">
+<ppt>width=-2
+height=-2
+text=全\n屏
+textColor=#ff000000
+typeface=@Ex_GameFont.ttf
+gravity=center
+visibility=gone
+background=through</ppt>
+<event><eventItme type="clicki">uigo("mian-2.iyu")
+lan(0)</eventItme></event>
+</View>
+<View id="22" did="18" type="Button">
+<ppt>width=-2
+height=-2
+text=浏览器全\n屏修复
+textColor=#ff000000
+typeface=@acbt80.ttf
+background=through
+visibility=gone</ppt>
+<event><eventItme type="clicki">uigo("浏览器全屏修复.iyu")
+lan(6)</eventItme></event>
+</View>
+<View id="21" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="23" did="21" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="24" did="23" type="RelativeLayout">
+<ppt>width=-2
+height=-2
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="1" did="23" type="WebView">
+<ppt>width=-1
+height=-1
+url=https://juyp.hucl.link</ppt>
+<event><eventItme type="ondownloadstart">t()
+{
+  ufnsui()
+  {
+    ss("是否下载："+st_url,urls)
+    utw("@20230923_163802_0000.png","提醒",urls,"是","不",true,v)
+    {
+      hw(st_url)
+      endutw()
+    }
+    else
+    {
+      endutw()
+    }
+  }
+}</eventItme><eventItme type="onreceivederror">f(sss.mian2 == "false")
+{
+  us(1,"url","@not.html")
+}
+else f(sss.mian2 == "true")
+{
+  us(mian-2.1,"url","@not.html")
+}
+else
+{
+  us(1,"url","@not.html")
+  us(mian-2.1,"url","@not.html")
+}</eventItme></event>
+</View>
+<UIEventset><eventItme type="downkey">//退出延迟
+f(st_kC==4)
+{
+  f(ss.yclm == "yes")
+  {
+    us(2,"visibility","visible")
+    tw("已取消工具栏隐藏",0)
+    ss yclm ="no"
+  }
+  else f(ss.yclm == "no")
+  {
+    us(1,"gobackorforward",-1)
+  }
+  else
+  {
+    us(1,"gobackorforward",-1)
+  }
+}
+//
+/.
+f(st_kC == 4)
+{
+  f(ss.yclm == "no")
+  {
+    //返
+    cls(sss.jar, "com.tencent.smtt.sdk.WebView", cl)
+    javax(is, sss.wv, cl, "canGoBack")
+    f(is)
+    {
+      javax(a, sss.wv, cl, "goBack")
+    }
+    else
+    {
+      //如果没有上一页就退出
+      end()
+    }
+  }
+  else f(ss.yclm == "yes")
+  {
+    us(2,"visibility","visible")
+    tw("已取消工具栏隐藏",0)
+    ss yclm ="no"
+  }
+  else
+  {
+    //返
+    cls(sss.jar, "com.tencent.smtt.sdk.WebView", cl)
+    javax(is, sss.wv, cl, "canGoBack")
+    f(is)
+    {
+      javax(a, sss.wv, cl, "goBack")
+    }
+    else
+    {
+      //如果没有上一页就退出
+      end()
+    }
+  }
+}</eventItme><eventItme type="loadingComplete">//官方一言API调用
+s js1 ="{"quote":""
+s js2 =""}"
+s yyurl ="http://api.hucl.link/api/mryy.php"
+t()
+{
+  hs(yyurl,url)
+  json(url,url)
+  syso(url)
+  sj(url,js1,js2,mryy)
+  f(mryy != null)
+  {
+    ss("一言：\n"+mryy,mryy)
+    ufnsui()
+    {
+      tw(mryy)
+    }
+  }
+  else
+  {
+    ufnsui()
+    {
+      tw("一言API调用出现一点小问题，官方正在努力解决")
+    }
+  }
+}
+//
+t()
+{
+  ufnsui()
+  {
+    dha(dh,false,true)
+    dh(dh,"duration",2500)
+    us(5,"dh",dh)
+    //
+    dha(dh,false,true)
+    dh(dh,"duration",3000)
+    us(3,"dh",dh)
+    //
+    dha(dh,false,true)
+    dh(dh,"duration",3500)
+    us(4,"dh",dh)
+    //
+    dha(dh,false,true)
+    dh(dh,"duration",4000)
+    us(11,"dh",dh)
+    //
+    dha(dh,false,true)
+    dh(dh,"duration",4500)
+    us(13,"dh",dh)
+    //
+    dha(dh,false,true)
+    dh(dh,"duration",2000)
+    us(1,"dh",dh)
+    //
+    dha(dh,false,true)
+    dh(dh,"duration",5000)
+    us(15,"dh",dh)
+  }
+}
+//
+t()
+{
+  ufnsui()
+  {
+    us(15,"text","工具栏\n隐藏")
+    us(15,"gravity","center")
+    us(15,"visibility","visible")
+  }
+}</eventItme><eventItme type="loading">//vpn验证
+fn vpn.vpn()
+sss mian2 ="false"
+uycl(true)
+/.
+t()
+{
+  ufnsui()
+  {
+    us(3,"textColor",sss.w)
+    us(2,"background",sss.y)
+    us(11,"textColor",sss.w)
+    us(13,"textColor",sss.w)
+    us(15,"textColor",sss.w)
+    us(17,"textColor",sss.w)
+    us(19,"textColor",sss.w)
+    us(5,"background",sss.aj)
+  }
+./
+sss yz ="true"
+//
+t()
+{
+  ufnsui()
+  {
+    hsas(1,true)
+  }
+}
+//x5内核引入
+/.
+f(sss.jar == null)
+{
+//载入sdk
+fc("@JuFengCloud/x5/JuFengCloud_x5.jar","%欢乐的北洋/JuFengCloud/x5/a.jar",c)
+//输入赋值变量，语言类型，模块mk的abc方法，输入参数1
+call(sss.jar, "mlua", "a.loadDex","%欢乐的北洋/JuFengCloud/x5/a.jar")
+
+}
+
+s jar = sss.jar
+
+//获取类
+cls(jar, "com.tencent.smtt.sdk.WebView", cl)
+cls(jar, "com.tencent.smtt.sdk.WebViewClient", clwc)
+cls(jar, "com.tencent.smtt.sdk.WebSettings", clws)
+
+//创建浏览器
+javanew(sss.wv, cl, "android.content.Context", activity)
+javanew(lps, "android.view.ViewGroup$LayoutParams", "int", -1, "int", -1)
+java(b, sss.wv, "android.view.View.setLayoutParams", "android.view.ViewGroup$LayoutParams", lps)
+
+//添加到界面
+nvw(sss.wv,1)
+
+//重写类
+javanew(wvc, clwc)
+javax(b, sss.wv, cl, "setWebViewClient", clwc, wvc)
+
+//设置浏览器支持的属性
+javax(wvs, sss.wv, cl, "getSettings")
+javax(b, wvs, clws, "setJavaScriptEnabled", "boolean", true)
+javax(b, wvs, clws, "setJavaScriptCanOpenWindowsAutomatically", "boolean", true)
+javax(b, wvs, clws, "setAllowFileAccess", "boolean", true)
+javax(b, wvs, clws, "setSupportZoom", "boolean", true)
+javax(b, wvs, clws, "setBuiltInZoomControls", "boolean", true)
+javax(b, wvs, clws, "setUseWideViewPort", "boolean", true)
+javax(b, wvs, clws, "setSupportMultipleWindows", "boolean", true)
+javax(b, wvs, clws, "setAppCacheEnabled", "boolean", true)
+javax(b, wvs, clws, "setDomStorageEnabled", "boolean", true)
+javax(b, wvs, clws, "setGeolocationEnabled", "boolean", true)
+
+//访问网址
+javax(b, sss.wv, cl, "loadUrl", "String", "https://juyp.hucl.link")
+./
+loadjar("JuFengCloud/lib/SDK.dex",loadweb)
+cls(loadweb,"com.浏览器.bofangqi",类)
+gvs(1,浏览器)
+gvs(24,相对布局)
+//实例化对象
+javanew(类对象,类,"android.app.Activity",activity,"android.webkit.WebView",浏览器,"android.widget.RelativeLayout",相对布局)
+f(类对象!=null)
+{
+javax(chromeClient,类对象,类,"getWebChromeClient")
+javax(null,浏览器,"android.webkit.WebView","setWebChromeClient","android.webkit.WebChromeClient",chromeClient)
+}</eventItme></UIEventset>

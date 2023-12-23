@@ -1,0 +1,452 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+BackgroundColor=#c973ff91</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_gravity=top
+BackgroundColor=#ff56ccff</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="ImageButton">
+<ppt>width=-2
+height=-2
+src=@back.png
+background=through</ppt>
+<event><eventItme type="clicki">lan(0)
+uigo("mian1.iyu")
+end()
+bfm("@ajyx/snes_pop-7a63.ogg")</eventItme></event>
+</View>
+<View id="6" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=🌀飓风云☁️-设置
+textsize=18sp
+textcolor=#ff000000
+layout_gravity=center
+layout_marginLeft=18dp
+typeface=@Ex_GameFont.ttf</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="ScrollView">
+<ppt>width=-1
+height=-1
+</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="14" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=</ppt>
+<event></event>
+</View>
+<View id="8" did="3" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=25dp
+layout_gravity=center
+app_CardElevation=35dp</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="RelativeLayout">
+<ppt>width=-1
+height=55dp
+gravity=center
+layout_gravity=center</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=left|center
+layout_gravity=center</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="RoundImageView">
+<ppt>width=44dp
+height=44dp
+src=@ic_contacts.png
+layout_marginLeft=25dp</ppt>
+<event></event>
+</View>
+<View id="12" did="10" type="TextView">
+<ppt>width=-2
+height=-2
+text=是否自动加载公告？
+layout_gravity=center
+textColor=#ff000000
+textSize=15sp
+paddingLeft=35dp
+typeface=@Ex_GameFont.ttf</ppt>
+<event></event>
+</View>
+<View id="13" did="9" type="Button">
+<ppt>width=-1
+height=-1
+text=
+background=through</ppt>
+<event><eventItme type="clicki">bfm("@ajyx/snes_pop-7a6d3.ogg")
+//tws(v,"不支持",0)
+t()
+{
+  s a ="@20230923_163802_0000.png"
+  s b ="公告设置"
+  s c ="公告设置.iyu"
+  s d ="设置好了"
+  ufnsui()
+  {
+    utw(a,b,c,d,true,v)
+    {
+      endutw()
+      bfm("@ajyx/snes_pop-7a6d3.ogg")
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="21" did="3" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=25dp
+layout_marginTop=15dp
+app_CardElevation=35dp</ppt>
+<event></event>
+</View>
+<View id="22" did="21" type="RelativeLayout">
+<ppt>width=-1
+height=55dp</ppt>
+<event></event>
+</View>
+<View id="23" did="22" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=left|center
+layout_gravity=center</ppt>
+<event></event>
+</View>
+<View id="24" did="23" type="RoundImageView">
+<ppt>width=44dp
+height=44dp
+src=@ic_receipt.png
+layout_marginLeft=25dp</ppt>
+<event></event>
+</View>
+<View id="25" did="23" type="TextView">
+<ppt>width=-2
+height=-2
+text=主题颜色设置
+layout_gravity=center
+textColor=#ff000000
+textSize=15sp
+paddingLeft=35dp
+typeface=@Ex_GameFont.ttf</ppt>
+<event></event>
+</View>
+<View id="26" did="22" type="Button">
+<ppt>width=-1
+height=-1
+text=
+background=through
+background=#c63a3a3a</ppt>
+<event><eventItme type="clicki">bfm("@ajyx/snes_pop-7a6d3.ogg")
+tw("此功能暂时下线",0)
+/.
+utw("@20230923_163802_0000.png","主题色设置","主题色更换.iyu","完成设置",true,v)
+{
+  endutw()
+}</eventItme></event>
+</View>
+<View id="27" did="3" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=25dp
+layout_marginTop=15dp
+app_CardElevation=35dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="28" did="27" type="RelativeLayout">
+<ppt>width=-1
+height=55dp</ppt>
+<event></event>
+</View>
+<View id="29" did="28" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=left|center
+layout_gravity=center</ppt>
+<event></event>
+</View>
+<View id="30" did="29" type="RoundImageView">
+<ppt>width=44dp
+height=44dp
+src=@ic_contacts.png
+layout_marginLeft=25dp</ppt>
+<event></event>
+</View>
+<View id="31" did="29" type="TextView">
+<ppt>width=-2
+height=-2
+text=已开启广告推送
+layout_gravity=center
+textColor=#ff000000
+textSize=15sp
+paddingLeft=35dp
+typeface=@Ex_GameFont.ttf</ppt>
+<event></event>
+</View>
+<View id="32" did="28" type="Button">
+<ppt>width=-1
+height=-1
+text=
+background=through</ppt>
+<event><eventItme type="clicki">bfm("@ajyx/snes_pop-7a6d3.ogg")
+//
+t()
+{
+  s a ="%欢乐的北洋/JuFengCloud/JuFengCloud/AD/JFGC-AD.jfgc.ini"
+  s b ="utf-8"
+  fr(a,b,c)
+  f(c == null)
+  {
+    s false ="false"
+    fw(a,false,b)
+    ufnsui()
+    {
+      us(31,"textColor","#ff1aff00")
+      us(31,"text","已开启广告推送")
+    }
+  }
+  else f(c == true)
+  {
+    s false ="false"
+    fw(a,false,b)
+    ufnsui()
+    {
+      us(31,"textColor","#ffff0000")
+      us(31,"text","已关闭广告推送")
+    }
+  }
+  else f(c == false)
+  {
+    s true ="true"
+    fw(a,true,b)
+    ufnsui()
+    {
+      us(31,"textColor","#ff1aff00")
+      us(31,"text","已开启广告推送")
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="33" did="3" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=25dp
+layout_marginTop=15dp
+app_CardElevation=35dp</ppt>
+<event></event>
+</View>
+<View id="34" did="33" type="RelativeLayout">
+<ppt>width=-1
+height=55dp
+gravity=center
+layout_gravity=center</ppt>
+<event></event>
+</View>
+<View id="35" did="34" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=left|center
+layout_gravity=center</ppt>
+<event></event>
+</View>
+<View id="36" did="35" type="RoundImageView">
+<ppt>width=44dp
+height=44dp
+src=@ic_contacts.png
+layout_marginLeft=25dp</ppt>
+<event></event>
+</View>
+<View id="37" did="35" type="TextView">
+<ppt>width=-2
+height=-2
+text=关于本机
+layout_gravity=center
+textColor=#ff000000
+textSize=15sp
+paddingLeft=35dp
+typeface=@Ex_GameFont.ttf</ppt>
+<event></event>
+</View>
+<View id="38" did="34" type="Button">
+<ppt>width=-1
+height=-1
+text=
+background=through</ppt>
+<event><eventItme type="clicki">bfm("@ajyx/snes_pop-7a6d3.ogg")
+//tws(v,"不支持",0)
+t()
+{
+  /.
+  sjxx(a)
+  sgsz(a,0,d)
+  ./
+  ufnsui()
+  {
+    utw("@20230923_163802_0000.png","设备参数","sbsj.iyu","确定",true,v)
+    {
+      bfm("@ajyx/snes_pop-7a6d3.ogg")
+      endutw()
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="15" did="3" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=25dp
+layout_marginTop=15dp
+app_CardElevation=35dp
+layout_marginBottom=555dp</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="RelativeLayout">
+<ppt>width=-1
+height=55dp</ppt>
+<event></event>
+</View>
+<View id="17" did="16" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=left|center
+layout_gravity=center</ppt>
+<event></event>
+</View>
+<View id="18" did="17" type="RoundImageView">
+<ppt>width=44dp
+height=44dp
+src=@ic_event_note.png
+layout_marginLeft=25dp</ppt>
+<event></event>
+</View>
+<View id="19" did="17" type="TextView">
+<ppt>width=-2
+height=-2
+text=开发者相关
+layout_gravity=center
+textColor=#ff000000
+textSize=15sp
+paddingLeft=35dp
+typeface=@Ex_GameFont.ttf</ppt>
+<event></event>
+</View>
+<View id="20" did="16" type="Button">
+<ppt>width=-1
+height=-1
+text=
+background=through</ppt>
+<event><eventItme type="clicki">bfm("@ajyx/snes_pop-7a6d3.ogg")
+t()
+{
+  s a ="@Hudu - Logo.png"
+  s b ="开发者相关"
+  s c ="开发者相关.iyu"
+  s d ="关闭"
+  ufnsui()
+  {
+    utw(a,b,c,d,false,v)
+    {
+      bfm("@ajyx/snes_pop-7a6d3.ogg")
+      endutw()
+    }
+  }
+}</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">//vpn验证
+fn vpn.vpn()
+uycl("#ffa4ff98",true)
+loadjar("armeabi-v7a/classes.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(2,a)
+gvs(2,b)
+javanew(mBs,mB,"Context",activity)
+urvw(2)
+nvw(mBs,1)
+nvw(b,mBs)</eventItme><eventItme type="loadingComplete">uycl(true)
+/.
+t()
+{
+  ufnsui()
+  {
+    dha(dh,false,true)
+    dh(dh,"duration",2500)
+    us(8,"dh",dh)
+    //
+    dha(dh,false,true)
+    dh(dh,"duration",3000)
+    us(21,"dh",dh)
+    //
+    dha(dh,false,true)
+    dh(dh,"duration",3500)
+    us(15,"dh",dh)
+  }
+}
+//
+t()
+{
+  s a ="%欢乐的北洋/JuFengCloud/JuFengCloud/AD/JFGC-AD.jfgc.ini"
+  s b ="utf-8"
+  fr(a,b,c)
+  f(c == null)
+  {
+    ufnsui()
+    {
+      us(31,"textColor","#ff1aff00")
+      us(31,"text","已开启广告推送")
+    }
+  }
+  else f(c == true)
+  {
+    ufnsui()
+    {
+      us(31,"textColor","#ffff0000")
+      us(31,"text","已关闭广告推送")
+    }
+  }
+  else f(c == false)
+  {
+    ufnsui()
+    {
+      us(31,"textColor","#ff1aff00")
+      us(31,"text","已开启广告推送")
+    }
+  }
+}</eventItme><eventItme type="downkey">//退出延迟
+f(st_kC==4)
+{
+  f(sss.exit==null)
+  {
+    lan(0)
+    uigo("mian1.iyu")
+    end()
+  }
+}</eventItme></UIEventset>

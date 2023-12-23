@@ -1,0 +1,902 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>
+width=-1
+height=-1
+</ppt>
+<event>
+</event>
+</View>
+<View id="2" did="1" type="RelativeLayout">
+<ppt>
+width=-1
+height=-1
+</ppt>
+<event>
+</event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>
+width=-1
+height=60dp
+orientation=horizontal
+ut_alignParentBottom=true
+background=white
+</ppt>
+<event>
+</event>
+</View>
+<View id="6" did="3" type="RelativeLayout">
+<ppt>
+width=-2
+height=-1
+layout_weight=1
+layout_marginleft=0dp
+background=white
+layout_margintop=15dp
+</ppt>
+<event>
+<eventItme type="clicki">//vpn验证
+fn vpn.vpn()
+//
+ss mian ="true"
+f(ss.a==1)
+{
+}
+else
+{
+us(5,"currentitem",0)
+ngde("15","#fdfdfd",a)
+us(6,"background",a)
+us(9,"background","white")
+us(12,"background","white")
+dhas(dh, 6, "translationY",0,-30)
+dh(dh, "duration",500)
+dhast(dhlist, "together",dh)
+dh(dhlist, "start")
+us(8,"visibility","visible")
+us(11,"visibility","invisible")
+us(14,"visibility","invisible")
+f(ss.a==2)
+{
+dhas(dh,9,"translationY",-30,0)
+dh(dh, "duration",500)
+dhast(dhlist, "together",dh)
+dh(dhlist, "start")
+}
+else f(ss.a==3)
+{
+dhas(dh,12,"translationY",-30,0)
+dh(dh, "duration",500)
+dhast(dhlist, "together",dh)
+dh(dhlist,"start")
+}
+ss a=1
+}
+//主题
+/.
+t()
+{
+  ufnsui()
+  {
+    us(mian2.1,"background",sss.y)
+    us(mian2.5,"background",sss.ts)
+  }
+}</eventItme>
+</event>
+</View>
+<View id="7" did="6" type="ImageView">
+<ppt>
+width=25dp
+height=25dp
+src=@x04.png
+ut_centerinparent=true
+</ppt>
+<event>
+</event>
+</View>
+<View id="8" did="6" type="LinearLayout">
+<ppt>
+width=75dp
+height=3dp
+orientation=vertical
+ut_alignparentbottom=true
+ut_centerhorizontal=true
+visibility=invisible
+</ppt>
+<event>
+</event>
+</View>
+<View id="9" did="3" type="RelativeLayout">
+<ppt>
+width=-2
+height=-1
+layout_weight=1
+layout_marginleft=0dp
+background=white
+layout_margintop=15dp
+</ppt>
+<event>
+<eventItme type="clicki">//vpn验证
+fn vpn.vpn()
+//
+ss mian ="false"
+f(ss.a==2)
+{
+}
+else
+{
+us(5,"currentitem",1)
+ngde("15","#fdfdfd",a)
+us(9,"background",a)
+us(6,"background","white")
+us(12,"background","white")
+dhas(dh, 9, "translationY",0,-30)
+dh(dh, "duration",500)
+dhast(dhlist, "together",dh)
+dh(dhlist, "start")
+us(11,"visibility","visible")
+us(8,"visibility","invisible")
+us(14,"visibility","invisible")
+f(ss.a==1)
+{
+dhas(dh,6,"translationY",-30,0)
+dh(dh, "duration",500)
+dhast(dhlist, "together",dh)
+dh(dhlist, "start")
+}
+else f(ss.a==3)
+{
+dhas(dh,12,"translationY",-30,0)
+dh(dh, "duration",500)
+dhast(dhlist, "together",dh)
+dh(dhlist,"start")
+}
+ss a=2
+}
+//主题
+/.
+t()
+{
+  ufnsui()
+  {
+    us(mian-2.3,"textColor",sss.w)
+    us(mian-2.2,"background",sss.y)
+    us(mian-2.11,"textColor",sss.w)
+    us(mian-2.13,"textColor",sss.w)
+    us(mian-2.15,"textColor",sss.w)
+    us(mian-2.17,"textColor",sss.w)
+    us(mian-2.19,"textColor",sss.w)
+    us(mian-2.5,"background",sss.aj)
+    ./
+    us(mian-2.5,"visibility","gone")
+    /.
+    us(mian-2.20,"textColor",sss.w)
+  }
+}
+./
+/.
+loadjar("llq.dex",loadweb)
+cls(loadweb,"com.浏览器.bofangqi",类)
+gvs(mian-2.1,浏览器)
+gvs(mian-2.21,相对布局)
+//实例化对象
+javanew(类对象,类,"android.app.Activity",activity,"android.webkit.WebView",浏览器,"android.widget.RelativeLayout",相对布局)
+f(类对象!=null)
+{
+javax(chromeClient,类对象,类,"getWebChromeClient")
+javax(null,浏览器,"android.webkit.WebView","setWebChromeClient","android.webkit.WebChromeClient",chromeClient)
+}
+/.</eventItme>
+</event>
+</View>
+<View id="10" did="9" type="ImageView">
+<ppt>
+width=25dp
+height=25dp
+src=@x05.png
+ut_centerinparent=true
+</ppt>
+<event>
+</event>
+</View>
+<View id="11" did="9" type="LinearLayout">
+<ppt>
+width=75dp
+height=3dp
+orientation=vertical
+ut_alignparentbottom=true
+ut_centerhorizontal=true
+visibility=invisible
+</ppt>
+<event>
+</event>
+</View>
+<View id="12" did="3" type="RelativeLayout">
+<ppt>
+width=-2
+height=-1
+layout_weight=1
+layout_marginleft=0dp
+background=white
+layout_margintop=15dp
+</ppt>
+<event>
+<eventItme type="clicki">//vpn验证
+fn vpn.vpn()
+//
+loadjar("armeabi-v7a/classes.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(zy3.45,a)
+gvs(zy3.45,b)
+javanew(mBs,mB,"Context",activity)
+urvw(zy3.45)
+nvw(mBs,zy3.1)
+nvw(b,mBs)
+//
+ss mian ="true"
+f(ss.a==3)
+{
+}
+else
+{
+us(5,"currentitem",2)
+ngde("15","#fdfdfd",a)
+us(12,"background",a)
+us(6,"background","white")
+us(9,"background","white")
+dhas(dh, 12, "translationY",0,-30)
+dh(dh, "duration",500)
+dhast(dhlist, "together",dh)
+dh(dhlist, "start")
+us(14,"visibility","visible")
+us(8,"visibility","invisible")
+us(11,"visibility","invisible")
+f(ss.a==1)
+{
+dhas(dh,6,"translationY",-30,0)
+dh(dh, "duration",500)
+dhast(dhlist, "together",dh)
+dh(dhlist, "start")
+}
+else f(ss.a==2)
+{
+dhas(dh,9,"translationY",-30,0)
+dh(dh, "duration",500)
+dhast(dhlist, "together",dh)
+dh(dhlist,"start")
+}
+ss a=3
+}
+//主题
+/.
+t()
+{
+  ufnsui()
+  {
+    uycl("#ffa4ff98",true)
+    //addv(1,"mian2.iyu|zy3.iyu")
+    //
+    us(zy3.44,"background",sss.y)
+    us(zy3.72,"textColor",sss.w)
+    us(zy3.27,"textColor",sss.w)
+    us(zy3.37,"textColor",sss.w)
+    us(zy3.49,"textColor",sss.w)
+    us(zy3.54,"textColor",sss.w)
+    us(zy3.59,"textColor",sss.w)
+    us(zy3.64,"textColor",sss.w)
+    us(zy3.69,"textColor",sss.w)
+    us(zy3.76,"textColor",sss.w)
+    us(zy3.81,"textColor",sss.w)
+    us(zy3.86,"textColor",sss.w)
+    us(zy3.91,"textColor",sss.w)
+    us(zy3.96,"textColor",sss.w)
+    us(zy3.111,"textcolor",sss.w)
+    us(zy3.116,"textColor",sss.w)
+  }
+}
+/.
+loadjar("armeabi-v7a/classes.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(zy3.45,a)
+gvs(zy3.45,b)
+javanew(mBs,mB,"Context",activity)
+urvw(zy3.45)
+nvw(mBs,1)
+nvw(b,mBs)</eventItme>
+</event>
+</View>
+<View id="13" did="12" type="ImageView">
+<ppt>
+width=25dp
+height=25dp
+src=@x1.png
+ut_centerinparent=true
+</ppt>
+<event>
+</event>
+</View>
+<View id="14" did="12" type="LinearLayout">
+<ppt>
+width=75dp
+height=3dp
+orientation=vertical
+ut_alignparentbottom=true
+ut_centerhorizontal=true
+visibility=invisible
+</ppt>
+<event>
+</event>
+</View>
+<View id="4" did="2" type="TextView">
+<ppt>
+width=-1
+height=1dp
+text=
+background=@shader.png
+ut_above=3
+</ppt>
+<event>
+</event>
+</View>
+<View id="5" did="2" type="ViewPager">
+<ppt>
+width=-1
+height=-1
+ut_above=4
+</ppt>
+<event>
+<eventItme type="onpageselected">
+f(st_pN==0)
+{
+ufnsui()
+{
+us(7,"src","@x04.png")
+us(10,"src","@x05.png")
+us(13,"src","@x1.png")
+ngde("15","#fdfdfd",a)
+us(6,"background",a)
+us(9,"background","white")
+us(12,"background","white")
+ss mian ="true"
+dhas(dh, 6, "translationY",0,-30)
+dh(dh, "duration",500)
+dhast(dhlist, "together",dh)
+dh(dhlist, "start")
+us(8,"visibility","visible")
+us(11,"visibility","invisible")
+us(14,"visibility","invisible")
+f(ss.a==2)
+{
+  ss mian ="false"
+dhas(dh,9,"translationY",-30,0)
+dh(dh, "duration",500)
+dhast(dhlist, "together",dh)
+dh(dhlist, "start")
+}
+else f(ss.a==3)
+{
+  ss mian ="true"
+dhas(dh,12,"translationY",-30,0)
+dh(dh, "duration",500)
+dhast(dhlist, "together",dh)
+dh(dhlist,"start")
+}
+ss a=1
+}
+}
+else f(st_pN==1)
+{
+ufnsui()
+{
+us(7,"src","@x11.png")
+us(10,"src","@x08.png")
+us(13,"src","@x1.png")
+us(4,"currentitem",1)
+ngde("15","#fdfdfd",a)
+us(9,"background",a)
+us(6,"background","white")
+us(12,"background","white")
+dhas(dh, 9, "translationY",0,-30)
+dh(dh, "duration",500)
+dhast(dhlist, "together",dh)
+dh(dhlist, "start")
+us(11,"visibility","visible")
+us(8,"visibility","invisible")
+us(14,"visibility","invisible")
+f(ss.a==1)
+{
+dhas(dh,6,"translationY",-30,0)
+dh(dh, "duration",500)
+dhast(dhlist, "together",dh)
+dh(dhlist, "start")
+}
+else f(ss.a==3)
+{
+dhas(dh,12,"translationY",-30,0)
+dh(dh, "duration",500)
+dhast(dhlist, "together",dh)
+dh(dhlist,"start")
+}
+ss a=2
+}
+}
+f(st_pN==2)
+{
+ufnsui()
+{
+us(7,"src","@x11.png")
+us(10,"src","@x05.png")
+us(13,"src","@x06.png")
+ngde("15","#fdfdfd",a)
+us(12,"background",a)
+us(6,"background","white")
+us(9,"background","white")
+dhas(dh, 12, "translationY",0,-30)
+dh(dh, "duration",500)
+dhast(dhlist, "together",dh)
+dh(dhlist, "start")
+us(14,"visibility","visible")
+us(8,"visibility","invisible")
+us(11,"visibility","invisible")
+f(ss.a==1)
+{
+dhas(dh,6,"translationY",-30,0)
+dh(dh, "duration",500)
+dhast(dhlist, "together",dh)
+dh(dhlist, "start")
+}
+else f(ss.a==2)
+{
+dhas(dh,9,"translationY",-30,0)
+dh(dh, "duration",500)
+dhast(dhlist, "together",dh)
+dh(dhlist,"start")
+}
+ss a=3
+}
+}
+</eventItme>
+</event>
+</View>
+<UIEventset>
+<eventItme type="loadingComplete">addv(5,"mian2.iyu||mian-2.iyu||zy3.iyu",h)
+gvs(zy1.10,wv)
+java(ws,wv,"android.webkit.WebView.getSettings")
+java(null,ws,"android.webkit.WebSettings.setBuiltInZoomControls","boolean",true)
+java(null,ws,"android.webkit.WebSettings.setDisplayZoomControls","boolean",false)
+ula(ss.hl,4=null,6=null)
+uls(zy1.41,ss.hl,"tj.iyu",-1,-2)
+s idt="zy2.4-zy2.6-zy2.9-zy2.11-zy2.14-zy2.16-zy2.19-zy2.21-zy2.24-zy2.26-zy2.29-zy2.31-zy2.34-zy2.36-zy2.39-zy2.41-zy2.44-zy2.46-zy2.58-zy2.60-zy2.63-zy2.65-zy2.68-zy2.70-zy2.75"
+sl(idt,"-",z)
+for(id;z)
+{
+ngde(10,"#448AFF",jk)
+us(id,"background",jk)
+}
+uycl(true)
+t()
+{
+  s ml ="$欢乐的北洋/JuFengCloud/yhxy/yhxy.jl"
+  fe(ml,yz)
+  f(yz == false)
+  {
+    s uurl ="http://api.hucl.link/JuFengCloud/yhxy/yhxy.txt"
+    hs(uurl,uurl)
+    sj(uurl,"a：","：a",ht)
+    sj(uurl,"b：","：b",nr)
+    s tao ="@20230923_163802_0000.png"
+    s an1 ="我同意"
+    s an2 ="我不同意，并退出"
+    ufnsui()
+    {
+      utw(tao,ht,nr,an1,an2,true,atyh)
+      {
+        endutw()
+        s jl ="$欢乐的北洋/JuFengCloud/yhxy/yhxy.jl"
+        s bm ="utf-8"
+        fw(jl,"JuFengCloud",bm)
+        bfm("@ajyx/snes_pop-7a6d3.ogg")
+      }
+      else
+      {
+        bfm("@ajyx/snes_pop-7a6d3.ogg")
+        tw("再见")
+        end()
+      }
+    }
+  }
+}
+//
+t()
+{
+  s ggjzjl ="$欢乐的北洋/JuFengCloud/Cloud/gggl/jl.jfgc"
+  s ggjzjlbm ="utf-8"
+  fr(ggjzjl,ggjzjlbm,sfjzgg)
+  f(sfjzgg != false)
+  {
+    ufnsui()
+    {
+      tws(x,"正在加载公告中。。。",0)
+    }
+    //hs("http://jfgcht.hucl.link/huducloud/gg/ygg.txt",ygg)
+    hs("http://api.hucl.link/api/ht.php?nr=ygg.txt&dy=text",ygg)
+    sr(ygg,"&lt;br&gt;","\n",ygg)
+    ufnsui()
+    {
+      tw("公告加载成功૮(˶ᵔ ᵕ ᵔ˶)ა",0)
+    }
+    sj(ygg,"bt：","：bt",bt)
+    sj(ygg,"ggnr：","：ggnr",ggnr)
+    syso(bt)
+    syso(ggnr)
+    ufnsui()
+    {
+      utw("@20230923_163802_0000.png",bt,ggnr,"明白了",true,v)
+      {
+        bfm("@ajyx/snes_pop-7a6d3.ogg")
+        endutw()
+      }
+    }
+  }
+}
+//官方一言API调用
+s js1 ="{"quote":""
+s js2 =""}"
+s yyurl ="http://api.hucl.link/api/mryy.php"
+t()
+{
+  hs(yyurl,url)
+  json(url,url)
+  syso(url)
+  sj(url,js1,js2,mryy)
+  f(mryy != null)
+  {
+    ss("一言：\n"+mryy,mryy)
+    ufnsui()
+    {
+      tw(mryy)
+    }
+  }
+  else
+  {
+    ufnsui()
+    {
+      tw("一言API调用出现一点小问题，官方正在努力解决")
+    }
+  }
+}
+//
+/.
+t()
+{
+  hs("http://l.hucl.link:1390/JuFengClou/kf/kf.txt",kfz)
+  sj(kfz,"kfz：","：kfz",kfz)
+  sj(kfz,"ly：","：ly",ly)
+  syso(ly)
+  sj(kfz,"url：","：url",url)
+  f(kfz != false)
+  {
+    ufnsui()
+    {
+      utw("@20230923_163802_0000.png","暂时不开放",ly,"知道了","更新一下版本",true,v)
+      {
+        end()
+        endutw()
+      }
+      else
+      {
+        hw(url)
+        hdduigo()
+        lan(0)
+      }
+    }
+  }
+}
+/.
+t()
+{
+  hs("http://l.hucl.link:1390/JuFengCloud/gz/ad.txt",gzurl)
+  //
+  t()
+  {
+    sj(gzurl,"gz1：","：gz1",sss.gz1)
+    sj(gzurl,"gz1-url：","：gz1-url",sss.gz1url)
+    sj(gzurl,"gz1-t：","：gz1-t",sss.gz1t)
+  }
+  //
+  t()
+  {
+    sj(gzurl,"gz2：","：gz2",sss.gz2)
+    sj(gzurl,"gz2-url：","：gz2-url",sss.gz2url)
+    sj(gzurl,"gz2-t：","：gz2-t",sss.gz2t)
+  }
+  //
+  t()
+  {
+    sj(gzurl,"gz3：","：gz3",sss.gz3)
+    sj(gzurl,"gz3-url：","：gz3-url",sss.gz3url)
+    sj(gzurl,"gz3-t：","：gz3-t",sss.gz3t)
+  }
+  //
+  t()
+  {
+    sj(gzurl,"gz4：","：gz4",sss.gz4)
+    sj(gzurl,"gz4-url：","：gz4-url",sss.gz4url)
+    sj(gzurl,"gz4-t：","：gz4-t",sss.gz4t)
+  }
+  //
+  t()
+  {
+    syso(gzurl)
+  }
+}
+./
+//
+/.
+s url ="https://v.api.aa1.cn/api/yiyan/index.php"
+t()
+{
+  hs(url,mryy)
+  sj(mryy,"&lt;p&gt;","&lt;/p&gt;",mryy)
+  ss("每日一言："+"\n"+mryy,mryy)
+  syso(mryy)
+  ufnsui()
+  {
+    tws(v,mryy,0)
+  }
+}
+//
+t()
+{
+  ufnsui()
+  {
+    dha(dh,false,true)
+    dh(dh,"duration",2500)
+    us(5,"dh",dh)
+    //
+    dha(dh,false,true)
+    dh(dh,"duration",3000)
+    us(3,"dh",dh)
+    //
+    dha(dh,false,true)
+    dh(dh,"duration",3500)
+    us(4,"dh",dh)
+    //
+    dha(dh,false,true)
+    dh(dh,"duration",4000)
+    us(11,"dh",dh)
+    //
+    dha(dh,false,true)
+    dh(dh,"duration",4500)
+    us(13,"dh",dh)
+    //
+    dha(dh,false,true)
+    dh(dh,"duration",2000)
+    us(1,"dh",dh)
+    //
+    dha(dh,false,true)
+    dh(dh,"duration",5000)
+    us(15,"dh",dh)
+  }
+}
+./
+//
+t()
+{
+  ufnsui()
+  {
+    us(mian-2.15,"text","工具栏\n隐藏")
+    us(mian-2.15,"gravity","center")
+    //us(mian-2.15,"visibility","visible")
+    us(mian-2.20,"visibility","visible")
+  }
+}</eventItme>
+<eventItme type="loading">//vpn验证
+fn vpn.vpn()
+//hlw
+t()
+{
+  f(sss.hlw == null)
+  {
+    tts(a,"zh","无法正常链接互联网",1,1)
+  }
+}
+sss yz ="false"
+sss mian2 ="true"
+//正常启动验证
+f(sss.qdyz != "true")
+{
+  tw("未正常启动，正在重新启动",0)
+  lan(0)
+  uigo("mian.iyu")
+  end()
+}
+//
+us(8,"visibility","visible")
+dhas(dh,6,"translationY",0,-30)
+dh(dh, "duration",500)
+dhast(dhlist, "together",dh)
+dh(dhlist,"start")
+ss a=1
+uycl("#448AFF",true)
+ngde("0","0","#ff00b1ff|#ff00ffe6|#ff00ff41","#ef000000","leftright", f)
+us(8,"background",f)
+ngde("0","0","#fff500ff|#ffff6400|#ffffe900","#ef000000","leftright", f)
+us(11,"background",f)
+ngde("0","0","#ff00ff41|#ff00ffe6|#ff00b1ff","#ef000000","leftright", f)
+us(14,"background",f)
+t()
+{
+hs("https://api.zero.ren/userFile/?do=getFile&user=2568283870&fileName=APP端.txt",hs)
+sj(hs,"［","］",bb)
+f(bb==1)
+{
+}
+else
+{
+sj(hs,"【","】",sss.ts)
+sj(hs,"《","》",sss.nr)
+sj(hs,"〖","〗",sss.wy)
+ufnsui()
+{
+fn 文本.弹窗(sss.ts,sss.nr)
+}
+}
+}
+//
+/.
+t()
+{
+  hs(sss.url,url)
+  f(url == null)
+  {
+    ufnsui()
+    {
+      utw("@20230923_163802_0000.png","提醒","你与服务器失去连接，\n请检查是否连接网络。\n还有一种可能，那就是服务器可能因非正常原因关闭了","明白了，并关闭",true,v)
+      {
+        end()
+      }
+    }
+  }
+}
+./
+//
+t()
+{
+  s adsz ="$欢乐的北洋/JuFengCloud/JuFengCloud/AD/JFGC-AD.jfgc.ini"
+  s adszbm ="utf-8"
+  fr(adsz,adszbm,adsz)
+  f(adsz == null)
+  {
+    t()
+    {
+      ufnsui()
+      {
+        stop(1500)
+        us(zy3.101,"src",sss.gz1t)
+      }
+    }
+  }
+  else f(adsz == true)
+  {
+    t()
+    {
+      ufnsui()
+      {
+        stop(1500)
+        us(zy3.101,"src",sss.gz1tw)
+      }
+    }
+  }
+  else
+  {
+    ufnsui()
+    {
+      us(zy3.98,"visibility","gone")
+    }
+  }
+}
+//
+f(sss.qdyz == "true")
+{
+  s wz ="$JuFengCloud/yh/yhsr.jfgc"
+  fe(wz,yhsrsfcz)
+  f(yhsrsfcz == false)
+  {
+    uigo("szsr.iyu")
+    lan(0)
+  }
+  s wz ="$JuFengCloud/yh/yhsr.jfgc"
+  t()
+  {
+    fr(wz,"utf-8",yhsr)
+    sj(yhsr,"月：","：月",u)
+    sj(yhsr,"日：","：日",r)
+    sj(yhsr,"年：","：年",n)
+    time("m",dqsjy)
+    time("d",dqsjr)
+    time("Y",dqsjn)
+    ss("月："+u+"日："+r,yhsr2)
+    ss("月："+dqsjy+"日："+dqsjr,dqsj)
+    s(dqsjn - n,yhss)
+    ss("生日快乐，现在你："+yhss+"岁了哦！",srzfnr)
+    syso(yhss)
+    f(yhsr2 == dqsj)
+    {
+      ufnsui()
+      {
+        utw(null,"",srzfnr,"谢谢",false,v)
+        {
+          endutw()
+        }
+      }
+    }
+  }
+}
+//广告实现
+//fn ju-ad.ad()
+f(sss.qdyz == "true")
+{
+  t()
+  {
+    ufnsui()
+    {
+      uigo("AD.iyu")
+      lan(0)
+    }
+  }
+}
+//
+t()
+{
+  ufnsui()
+  {
+    us(mian2.1,"background",sss.y)
+    us(mian2.5,"background",sss.ts)
+  }
+}
+//
+t()
+{
+  ufnsui()
+  {
+    hsas(mian-2.1,true)
+  }
+}</eventItme>
+<eventItme type="downkey">f(st_kC == 4)
+{
+  f(ss.mian == "true")
+  {
+    s cd1="要退出吗╯﹏╰"
+    s cd2="不再玩玩(~0~)"
+    s cd3="好的"
+    fn nvw.cd(cd1,cd2,cd3)
+  }
+  else f(ss.mian == "false")
+  {
+    f(st_kC==4)
+    {
+      f(ss.yclm == "yes")
+      {
+        us(mian-2.2,"visibility","visible")
+        tw("已取消工具栏隐藏",0)
+        ss yclm ="no"
+      }
+      else f(ss.yclm == "no")
+      {
+        us(mian-2.1,"gobackorforward",-1)
+      }
+      else
+      {
+        us(mian-2.1,"gobackorforward",-1)
+      }
+    }
+  }
+  else
+  {
+    s cd1="要退出吗╯﹏╰"
+    s cd2="不再玩玩(~0~)"
+    s cd3="我要退出"
+    fn nvw.cd(cd1,cd2,cd3)
+  }
+}</eventItme></UIEventset>

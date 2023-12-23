@@ -1,0 +1,268 @@
+<View id="24" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="1" did="24" type="CardView">
+<ppt>width=300dp
+height=300dp
+app_CardcornerRadius=35dp</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=top|center</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="RoundImageView">
+<ppt>width=64dp
+height=64dp
+src=@20230923_163802_0000.png
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="4" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=主题色更换
+textColor=#ff000000
+typeface=@Ex_GameFont.ttf
+textSize=15sp
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="5" did="2" type="ScrollView">
+<ppt>width=-1
+height=-1
+layout_marginBottom=6dp</ppt>
+<event></event>
+</View>
+<View id="7" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=top|center</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="CardView">
+<ppt>width=-1
+height=55dp
+app_CardcornerRadius=25dp
+layout_marginTop=25dp
+app_CardElevation=25dp</ppt>
+<event></event>
+</View>
+<View id="10" did="8" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=left|center</ppt>
+<event></event>
+</View>
+<View id="12" did="11" type="CardView">
+<ppt>width=45dp
+height=45dp
+app_CardcornerRadius=35dp
+layout_marginLeft=25dp</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="Button">
+<ppt>width=-1
+height=-1
+text=
+BackgroundColor=#ff000000</ppt>
+<event></event>
+</View>
+<View id="14" did="11" type="TextView">
+<ppt>width=-2
+height=-2
+text=夜黑风高
+textColor=#ff000000
+typeface=@Ex_GameFont.ttf
+textSize=18sp
+layout_marginLeft=25dp</ppt>
+<event></event>
+</View>
+<View id="17" did="10" type="Button">
+<ppt>width=-1
+height=-1
+text=
+background=through</ppt>
+<event><eventItme type="clicki">bfm("@ajyx/snes_pop-7a6d3.ogg")
+//
+t()
+{
+  s a ="@zts/yssj-h.jfgc.ini"
+  s b ="%欢乐的北洋/JuFengCloud/JuFengCloud/YS/yssj.jfgc.ini"
+  fc(a,b,c)
+  f(c == true)
+  {
+    ufnsui()
+    {
+      tws(v,"设置成功",0)
+      uigo("mian.iyu")
+      lan(0)
+      end()
+    }
+    else f(c == false)
+    {
+      tws(x,"未设置成功",0)
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="16" did="7" type="CardView">
+<ppt>width=-1
+height=55dp
+app_CardcornerRadius=15dp
+layout_marginTop=25dp
+app_CardElevation=25dp</ppt>
+<event></event>
+</View>
+<View id="18" did="16" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="19" did="18" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=left|center</ppt>
+<event></event>
+</View>
+<View id="20" did="19" type="CardView">
+<ppt>width=45dp
+height=45dp
+app_CardcornerRadius=35dp
+layout_marginLeft=25dp</ppt>
+<event></event>
+</View>
+<View id="21" did="20" type="Button">
+<ppt>width=-1
+height=-1
+text=
+BackgroundColor=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="22" did="19" type="TextView">
+<ppt>width=-2
+height=-2
+text=白日
+textColor=#ff000000
+typeface=@Ex_GameFont.ttf
+textSize=18sp
+layout_marginLeft=25dp</ppt>
+<event></event>
+</View>
+<View id="23" did="18" type="Button">
+<ppt>width=-1
+height=-1
+text=
+background=through</ppt>
+<event><eventItme type="clicki">bfm("@ajyx/snes_pop-7a6d3.ogg")
+//
+t()
+{
+  s a ="@zts/yssj-b.jfgc.ini"
+  s b ="%欢乐的北洋/JuFengCloud/JuFengCloud/YS/yssj.jfgc.ini"
+  fc(a,b,c)
+  f(c == true)
+  {
+    ufnsui()
+    {
+      tws(v,"设置成功",0)
+      uigo("mian.iyu")
+      lan(0)
+      end()
+    }
+    else f(c == false)
+    {
+      tws(x,"未设置成功",0)
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="25" did="7" type="CardView">
+<ppt>width=-1
+height=55dp
+app_CardcornerRadius=15dp
+layout_marginTop=25dp
+app_CardElevation=25dp
+layout_marginBottom=100dp</ppt>
+<event></event>
+</View>
+<View id="26" did="25" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="27" did="26" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=left|center</ppt>
+<event></event>
+</View>
+<View id="28" did="27" type="CardView">
+<ppt>width=45dp
+height=45dp
+app_CardcornerRadius=35dp
+layout_marginLeft=25dp</ppt>
+<event></event>
+</View>
+<View id="29" did="28" type="Button">
+<ppt>width=-1
+height=-1
+text=
+BackgroundColor=#ff55ff00</ppt>
+<event></event>
+</View>
+<View id="30" did="27" type="TextView">
+<ppt>width=-2
+height=-2
+text=绿色草原（默认）
+textColor=#ff000000
+typeface=@Ex_GameFont.ttf
+textSize=18sp
+layout_marginLeft=25dp</ppt>
+<event></event>
+</View>
+<View id="31" did="26" type="Button">
+<ppt>width=-1
+height=-1
+text=
+background=through</ppt>
+<event><eventItme type="clicki">bfm("@ajyx/snes_pop-7a6d3.ogg")
+//
+t()
+{
+  s a ="@zts/yssj-l.jfgc.ini"
+  s b ="%欢乐的北洋/JuFengCloud/JuFengCloud/YS/yssj.jfgc.ini"
+  fc(a,b,c)
+  f(c == true)
+  {
+    ufnsui()
+    {
+      tws(v,"设置成功",0)
+      uigo("mian.iyu")
+      lan(0)
+      end()
+    }
+    else f(c == false)
+    {
+      tws(x,"未设置成功",0)
+    }
+  }
+}</eventItme></event>
+</View>
+<UIEventset></UIEventset>

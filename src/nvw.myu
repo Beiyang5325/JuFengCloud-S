@@ -1,0 +1,64 @@
+fn cd(cd1,cd2,cd3)
+urvw(600)
+//防止错误布局，先移除之前的弹窗
+nvw(600,1,"相对布局","width=-1\nheight=-1\nbackground=#20000000")
+nvw(601,600,"线性布局","width=-1\nheight=200dp\norientation=vertical\nut_alignParentBottom=true")
+nvw(602,601,"线性布局","width=-1\nheight=150dp\norientation=vertical")
+nvw(603,601,"线性布局","width=-1\nheight=50dp\norientation=vertical\ngravity=center")
+nvw(604,602,"卡片","width=-1\nheight=-1\nlayout_margin=10dp\napp_CardcornerRadius=10dp")
+nvw(605,604,"线性布局","width=-1\nheight=-1\norientation=vertical")
+nvw(606,605,"线性布局","width=-1\nheight=-1\nlayout_weight=1\norientation=vertical\ngravity=center")
+ss("width=-2\nheight=-2\ntext="+cd1,nr1)
+nvw(607,606,"文本",nr1)
+nvw(608,605,"线性布局","width=-1\nheight=1\norientation=vertical\nbackground=#50000000")
+nvw(609,605,"线性布局","width=-1\nheight=-1\nlayout_weight=1\norientation=vertical\ngravity=center")
+ss(""width=-2\nheight=-2\ntext="+cd2,nr2)
+nvw(610,609,"文本",nr2)
+nvw(611,605,"线性布局","width=-1\nheight=1\norientation=vertical\nbackground=#50000000")
+nvw(612,605,"线性布局","width=-1\nheight=-1\nlayout_weight=1\norientation=vertical\ngravity=center")
+ss("width=-2\nheight=-2\ntext="+cd3,nr3)
+nvw(613,612,"文本",nr3)
+nvw(614,603,"卡片","width=-1\nheight=43dp\nlayout_margin=10dp\napp_CardcornerRadius=10dp")
+nvw(615,614,"线性布局","width=-1\nheight=-1\nlayout_weight=1\norientation=vertical\ngravity=center")
+nvw(616,615,"文本","width=-2\nheight=-2\ntext=再玩会吧(๑•́ ₃ •̀๑)")
+s id = 601
+swh("pxh",huj)
+dht(scf,0,0,huj,0)
+dh(scf,"duration",500)
+us(id,"dh",scf)
+gvs(id,v1)
+java(null,v1,"android.view.View.setTranslationZ","float","25")
+//弹窗出现动画
+ssj(606,"clicki")
+{
+  //第一个点击事件↓
+  
+ 
+  endutw()
+}
+ssj(609,"clicki")
+{
+  
+}
+ssj(612,"clicki")
+{
+  end()
+}
+ssj(615,"clicki")
+{
+swh("pxh",huj)
+dht(jkl,0,0,0,huj)
+dh(jkl,"duration",500)
+us(601,"dh",jkl)
+//弹窗关闭动画
+t()
+{
+  stop(500)
+  ufnsui()
+  {
+    urvw(600)
+    //延迟50毫秒移除弹窗
+  }
+}
+}
+end fn

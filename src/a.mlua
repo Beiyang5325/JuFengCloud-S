@@ -1,0 +1,8 @@
+
+import "dalvik.system.DexClassLoader";
+
+function loadDex(dexPath)
+return DexClassLoader(i:fdir(dexPath),"/data/data/"..activity:getPackageName().."/files/",nil,activity:getClassLoader());
+
+--参数：dex文件路径(这里使用fdir获取绝对路径，如果闪退请将文件复制到数据目录下，在重新获取)，odex输出目录(这里使用了iapp的私有文件夹)，so依赖目录(这里直接传nil，如果需要自己写)，父Loader(这里直接使用activity获取)
+end

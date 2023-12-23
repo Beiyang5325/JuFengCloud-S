@@ -1,0 +1,37 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="5" did="3" type="WebView">
+<ppt>width=-1
+height=-1
+url=https://juyp.hucl.link</ppt>
+<event><eventItme type="onpagefinished">syso("完毕")</eventItme><eventItme type="onpagestarted">syso("开始加载")</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">loadjar("JuFengCloud/lib/SDK.dex",loadweb)
+cls(loadweb,"com.浏览器.bofangqi",类)
+gvs(5,浏览器)
+gvs(4,相对布局)
+//实例化对象
+javanew(类对象,类,"android.app.Activity",activity,"android.webkit.WebView",浏览器,"android.widget.RelativeLayout",相对布局)
+f(类对象!=null)
+{
+javax(chromeClient,类对象,类,"getWebChromeClient")
+javax(null,浏览器,"android.webkit.WebView","setWebChromeClient","android.webkit.WebChromeClient",chromeClient)
+}</eventItme><eventItme type="downkey">f(st_kC == 4)
+{
+  us(5,"gobackorforward",-1)
+}</eventItme></UIEventset>

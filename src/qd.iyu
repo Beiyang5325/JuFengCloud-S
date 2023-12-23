@@ -1,0 +1,210 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+ps=background=#ff85faa6
+background=@JuFengCloud/tbwjj/1702032085023.png</ppt>
+<event></event>
+</View>
+<View id="15" did="1" type="GifView">
+<ppt>width=120dp
+height=-2
+src=@240.gif
+layout_marginTop=10dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="20" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=bottom|center</ppt>
+<event></event>
+</View>
+<View id="17" did="20" type="TextView">
+<ppt>width=-2
+height=-2
+text=每日一言：xxxx
+textColor=#ff55ff00
+textSize=16sp
+gravity=center
+visibility=gone
+typeface=@Ex_GameFont.ttf
+textIsSelectable=true
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="23" did="20" type="ProgressBar">
+<ppt>width=60dp
+height=60dp
+style=16842871
+layout_marginBottom=35dp</ppt>
+<event></event>
+</View>
+<View id="21" did="20" type="TextView">
+<ppt>width=-2
+height=-2
+text=Version 1.55
+typeface=@acbt80.ttf
+textIsSelectable=true
+layout_marginBottom=35dp
+textColor=#ffffffff</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="downkey">//退出延迟
+f(st_kC==4)
+{
+  us(1,"gobackorforward",-1)
+}</eventItme><eventItme type="loading">//vpn验证
+fn vpn.vpn()
+//JuFengCloud-URL
+sss url ="https://api.hucl.link"
+//打通性验证
+t()
+{
+  hs(sss.url,url)
+  f(url == null)
+  {
+    sss hlw ="false"
+    ufnsui()
+    {
+      tw("无法正常链接互联网")
+      tts(a,"zh","无法正常链接互联网",1,1)
+    }
+  }
+  else f(sss.url != null)
+  {
+    sss hlw ="true"
+  }
+}
+//us(1,"background","JuFengCloud/bz-1.jpg")
+uycl(true)
+//启动验证
+sss qdyz ="true"
+//
+//tts(a,"zh","你好，我们是飓风云",1,1)
+//
+t()
+{
+  //sss url ="http://cn-fz-dx-jk-xhfrp.xhzdim.top:45224"
+  //
+  sss admin ="177828525"
+  sss user ="9595664"
+  sss pass ="9595664"
+}
+//
+t()
+{
+  stop(4500)
+  s a ="$Android/.JuFengCloud/.ysbhmm.huclmm"
+  fe(a,b)
+  syso(b)
+  f(b == false)
+  {
+    s a ="$欢乐的北洋/JuFengCloud/JuFengCloud/YS/yssj.jfgc.ini"
+    s b ="utf-8"
+    fr(a,b,c)
+    f(c == null)
+    {
+      uigo("mian1.iyu")
+      lan(0)
+      end()
+    }
+    else f(c != null)
+    {
+      uigo("mian1.iyu")
+      lan(0)
+      end()
+    }
+  }
+  else f(b == true)
+  {
+    uigo("隐私锁.iyu")
+    lan(0)
+    end()
+  }
+}
+/.
+s url ="https://v.api.aa1.cn/api/yiyan/index.php"
+t()
+{
+  hs(url,mryy)
+  sj(mryy,"&lt;p&gt;","&lt;/p&gt;",mryy)
+  f(mryy != null)
+  {
+    ss("一言："+"\n"+mryy+"\n",mryy)
+    syso(mryy)
+    ufnsui()
+    {
+      us(17,"visibility","visible")
+      us(17,"text",mryy)
+    }
+  }
+  else
+  {
+    ufnsui()
+    {
+      us(17,"visibility",visible)
+      us(17,"text","一言获取失败")
+    }
+  }
+}
+./
+//
+s yyurl ="http://api.hucl.link/api/mryy.php"
+t()
+{
+  hs(yyurl,url)
+  fr("@ywj/t.ini",t)
+  fr("@ywj/w.ini",w)
+  sj(url,t,w,mryy)
+  ss("一言：\n"+mryy+"\n",mryy)
+  ufnsui()
+  {
+    us(17,"visibility","visible")
+    us(17,"text",mryy)
+  }
+}
+//AD模块加载
+t()
+{
+  s adurl ="http://api.hucl.link/JuFengCloud/AD/adyz.txt"
+  hs(adurl,sss.adyz)
+  f(sss.adyz == false)
+  {
+    sss adyz ="@JuFengCloud/html/null-ad.html"
+  }
+  else
+  {
+    hs(adurl,sss.adyz)
+  }
+}
+/.</eventItme><eventItme type="loadingComplete">/.
+//主题色
+t()
+{
+  s a ="%欢乐的北洋/JuFengCloud/JuFengCloud/YS/yssj.jfgc.ini"
+  s b ="utf-8"
+  fr(a,b,c)
+  f(c != null)
+  {
+    sj(c,"wzds：","：wzds",sss.w)
+    sj(c,"yybjds：","：yybjds",sss.y)
+    sj(c,"btlds：","：btlds",sss.b)
+    sj(c,"ts：","：ts",sss.ts)
+    sj(c,"aj：","：aj",sss.aj)
+  }
+  else f(c == null)
+  {
+    s u ="@zts/yssj-l.jfgc.ini"
+    s bm ="utf-8"
+    fr(u,bm,c)
+    sj(c,"wzds：","：wzds",sss.w)
+    sj(c,"yybjds：","：yybjds",sss.y)
+    sj(c,"btlds：","：btlds",sss.b)
+    sj(c,"ts：","：ts",sss.ts)
+    sj(c,"aj：","：aj",sss.aj)
+  }
+}
+/.</eventItme></UIEventset>

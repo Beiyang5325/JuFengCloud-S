@@ -1,0 +1,100 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="CardView">
+<ppt>width=260dp
+height=260dp
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=top|center
+BackgroundColor=#ffa4ff98</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="RoundImageView">
+<ppt>width=60dp
+height=60dp
+src=@20230923_163802_0000.png</ppt>
+<event></event>
+</View>
+<View id="5" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=</ppt>
+<event></event>
+</View>
+<View id="6" did="3" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=25dp
+app_CardElevation=35dp</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="Button">
+<ppt>width=-1
+height=-1
+text=关闭进入自动加载公告
+textColor=#ff000000
+background=#ff56ccff
+typeface=@Ex_GameFont.ttf
+textIsSelectable=true</ppt>
+<event><eventItme type="clicki">bfm("@ajyx/snes_pop-7a6d3.ogg")
+t()
+{
+  s a ="$欢乐的北洋/JuFengCloud/Cloud/gggl/jl.jfgc"
+  s b ="utf-8"
+  s c ="false"
+  fw(a,c,b)
+  ufnsui()
+  {
+    /.
+    us(9,"background","#ff00f7ff")
+    us(7,"background","#ffff0000")
+    ./
+    tws(v,"成功关闭",0)
+  }
+}</eventItme></event>
+</View>
+<View id="8" did="3" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=25dp
+app_CardElevation=35dp
+layout_marginBottom=35dp
+layout_marginTop=25dp</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="Button">
+<ppt>width=-1
+height=-1
+text=开启进入自动加载公告
+textColor=#ff000000
+background=#ff56ccff
+typeface=@Ex_GameFont.ttf
+textIsSelectable=true</ppt>
+<event><eventItme type="clicki">bfm("@ajyx/snes_pop-7a6d3.ogg")
+t()
+{
+  s a ="$欢乐的北洋/JuFengCloud/Cloud/gggl/jl.jfgc"
+  s b ="utf-8"
+  s c ="true"
+  fw(a,c,b)
+  ufnsui()
+  {
+    /.
+    us(7,"background","#ff00f7ff")
+    us(9,"background","#ffff0000")
+    ./
+    tws(v,"成功开启",0)
+  }
+}</eventItme></event>
+</View>
+<UIEventset></UIEventset>

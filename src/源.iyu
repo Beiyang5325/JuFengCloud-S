@@ -1,0 +1,85 @@
+<View id="1" did="0" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=25dp
+app_CardElevation=25dp</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="CardView">
+<ppt>width=320dp
+height=520dp
+app_CardcornerRadius=25dp
+app_CardElevation=25dp</ppt>
+<event></event>
+</View>
+<View id="9" did="3" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center|left</ppt>
+<event><eventItme type="clicki">t()
+{
+  ufnsui()
+  {
+    utw("@20230923_163802_0000.png","问","请问你想进行什么操作？","复制以上文本","纯属我点错了",true,v)
+    {
+      ug(11,"text",ym)
+      sxb(ym)
+    }
+    else
+    {
+      endutw()
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="11" did="10" type="TextView">
+<ppt>width=-2
+height=-2
+text=获取过程中可能会有稍许卡顿，属于正常情况
+textColor=#ff000000
+typeface=@acbt80.ttf</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="downkey">//退出延迟
+f(st_kC==4)
+{
+f(sss.exit==null)
+{
+sss exit=0
+tw("再按一次返回上一级！",0)
+t()
+{
+stop(2000)
+sss exit=null
+}
+}
+else
+{
+end()
+}
+}</eventItme><eventItme type="loading">//vpn验证
+fn vpn.vpn()
+//隐藏
+uycl(true)
+//
+t()
+{
+  hs(sss.ymurl,txt)
+  ufnsui()
+  {
+    us(11,"text",txt)
+  }
+}</eventItme></UIEventset>

@@ -1,0 +1,161 @@
+<View id="7" did="0" type="CardView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="1" did="7" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="18" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=设置一下自己的\n生日日期吧！
+textColor=#ff000000
+typeface=@Ex_GameFont.ttf
+textSize=25sp
+gravity=center
+layout_marginBottom=35dp</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="CardView">
+<ppt>width=-1
+height=55dp
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="8" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=left|center</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="TextView">
+<ppt>width=-2
+height=-2
+text=出生年：
+textColor=#ff000000
+typeface=@Ex_GameFont.ttf
+layout_marginLeft=25dp</ppt>
+<event></event>
+</View>
+<View id="10" did="8" type="CardView">
+<ppt>width=66dp
+height=44dp
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+textColor=#ff000000
+typeface=@Ex_GameFont.ttf
+gravity=center
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="12" did="8" type="TextView">
+<ppt>width=-2
+height=-2
+text=月：
+textColor=#ff000000
+typeface=@Ex_GameFont.ttf
+layout_marginLeft=8dp</ppt>
+<event></event>
+</View>
+<View id="13" did="8" type="CardView">
+<ppt>width=66dp
+height=44dp
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="14" did="13" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+textColor=#ff000000
+typeface=@Ex_GameFont.ttf
+gravity=center
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="15" did="8" type="TextView">
+<ppt>width=-2
+height=-2
+text=日：
+textColor=#ff000000
+typeface=@Ex_GameFont.ttf
+layout_marginLeft=8dp</ppt>
+<event></event>
+</View>
+<View id="16" did="8" type="CardView">
+<ppt>width=66dp
+height=44dp
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="17" did="16" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+textColor=#ff000000
+typeface=@Ex_GameFont.ttf
+gravity=center
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="5" did="1" type="CardView">
+<ppt>width=66dp
+height=55dp
+layout_marginTop=25dp
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="Button">
+<ppt>width=-1
+height=-1
+text=设置
+textColor=#ff000000
+typeface=@Ex_GameFont.ttf
+background=through</ppt>
+<event><eventItme type="clicki">//11 14 17
+ug(11,"text",n)
+ug(14,"text",u)
+ug(17,"text",r)
+s wz ="$JuFengCloud/yh/yhsr.jfgc"
+s bm ="utf-8"
+f(n != null)
+{
+  f(u != null)
+  {
+    f(r != null)
+    {
+      ss("年："+n+"：年\n"+"月："+u+"：月\n"+"日："+r+"：日",nr)
+      syso(nr)
+      fw(wz,nr,bm)
+      lan(0)
+      end()
+    }
+    else
+    {
+      tw("您输入的内容有误")
+    }
+  }
+  else
+  {
+    tw("您输入的内容有误")
+  }
+}
+else
+{
+  tw("您输入的内容有误")
+}</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">//vpn验证
+fn vpn.vpn()
+uycl(true)</eventItme></UIEventset>

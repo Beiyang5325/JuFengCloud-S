@@ -1,0 +1,48 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=17301523</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=200dp
+orientation=vertical
+ut_alignParentBottom=true</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=150dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="5" did="3" type="CardView">
+<ppt>width=-1
+height=-1
+layout_margin=10dp
+app_CardcornerRadius=10dp</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-1
+layout_weight=1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="4" did="2" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">ss("width=-2\nheight=-2\ntext="+cd1,nr1)</eventItme></UIEventset>

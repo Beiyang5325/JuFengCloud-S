@@ -1,0 +1,74 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+gravity=center_vertical
+background=#FF5C5E85</ppt>
+<event></event>
+</View>
+<View id="6" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=飓风云安全（环境异常检测!）
+textSize=18sp
+textColor=#ffffff
+textStyle=bold
+layout_weight=1
+layout_marginRight=10dp
+layout_marginLeft=25dp</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="TextView">
+<ppt>width=-1
+height=5dp
+text=
+background=white</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="7" did="4" type="CardView">
+<ppt>width=-1
+height=200dp
+layout_marginLeft=10dp
+layout_marginTop=10dp
+layout_marginRight=10dp
+app_CardcornerRadius=10dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#F5F5F5
+</ppt>
+<event></event>
+</View>
+<View id="13" did="7" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="19" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=欢迎你进入小黑屋！,这里是小黑屋系统，专门关押偷数据包的人，来到这里说明你正在偷数据包！,既然你已被关押在小黑屋里，我保证,就算太上老君下凡,也救不出去你,除非你关闭抓包后,切后台,重新打开就行了。【想偷接口？，呵呵没门!】
+textColor=#FF5C5E85
+layout_marginLeft=10dp
+textStyle=bold
+textSize=16sp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#FF5C5E85",true)</eventItme><eventItme type="downkey">f(st_kC==4)
+{
+  tws(vpn_no,"请卸载抓包工具后重启本程序！",0)
+}</eventItme></UIEventset>

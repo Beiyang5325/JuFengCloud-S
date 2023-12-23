@@ -1,0 +1,73 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="WebView">
+<ppt>width=-1
+height=-1
+url=http://jfgcht.hucl.link/JuFengCloud/AD/1.png</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=right|top</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="CardView">
+<ppt>width=100dp
+height=55dp
+layout_marginRight=10dp
+app_CardcornerRadius=25dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="7" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=left|center</ppt>
+<event></event>
+</View>
+<View id="6" did="7" type="Button">
+<ppt>width=35dp
+height=35dp
+text=✘
+textColor=#ffff0000
+background=through</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="8" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=-广告
+textColor=#ff000000</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">//vpn验证
+fn vpn.vpn()
+uycl(true)
+us(3,"url",sss.adyz)
+s adsj ="21"
+t()
+{
+  for(1 ; 21)
+  {
+    s(adsj - "1",adsj)
+    ss("-广告 "+adsj+"s",adc)
+    ufnsui()
+    {
+      us(8,"text",adc)
+    }
+    f(adsj &lt; 1)
+    {
+      end()
+    }
+    stop(1000)
+  }
+}</eventItme><eventItme type="downkey">f(st_kC==4)
+{
+  tw("请点击关闭按钮")
+}</eventItme></UIEventset>

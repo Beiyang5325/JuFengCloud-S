@@ -1,0 +1,864 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_gravity=start
+BackgroundColor=#fff2f2f2
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="45" did="1" type="ScrollView">
+<ppt>width=-1
+height=-1
+fadingEdge=vertical
+fadingEdgeLength=124
+clipChildren=true
+BackgroundRipple=#ff7dc6ff
+scrollbars=vertical
+</ppt>
+<event></event>
+</View>
+<View id="44" did="45" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="71" did="44" type="RoundImageView">
+<ppt>width=85dp
+height=85dp
+src=@20230923_163802_0000.png
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="72" did="44" type="TextView">
+<ppt>width=-2
+height=-2
+text=🌀飓风云☁️
+textColor=#ff000000
+textSize=22sp
+typeface=@Ex_GameFont.ttf
+textIsSelectable=true
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="23" did="44" type="TextView">
+<ppt>width=-1
+height=2
+text=
+BackgroundColor=#ffdedede
+layout_marginLeft=15dp
+layout_marginRight=15dp
+layout_marginTop=5dp
+layout_marginBottom=5dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="24" did="44" type="RelativeLayout">
+<ppt>width=-1
+height=55dp</ppt>
+<event></event>
+</View>
+<View id="25" did="24" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="26" did="25" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@ic_system_update_black_24dp.png
+layout_gravity=center
+layout_marginLeft=17dp</ppt>
+<event></event>
+</View>
+<View id="27" did="25" type="TextView">
+<ppt>width=-2
+height=-2
+text=检测更新
+textsize=18sp
+textcolor=#ff000000
+layout_gravity=center
+layout_marginLeft=18dp
+typeface=@Ex_GameFont.ttf</ppt>
+<event></event>
+</View>
+<View id="28" did="24" type="Button">
+<ppt>width=-1
+height=-1
+text=
+background=through
+BackgroundRipple=#ffd1d1d1</ppt>
+<event><eventItme type="clicki">/.s bt ="检查更新"
+s nr ="由于API维护，所以暂时无法正常检查更新，版本库依旧开放访问\n\n\n——飓风云"
+./
+bfm("@ajyx/snes_pop-7a6d3.ogg")
+s bdbbh ="beta1.57"
+t()
+{
+  hs("http://api.hucl.link/JuFengCloud/ybb/ybb.txt",url)
+  stop(500)
+  sj(url,"bt：","：bt",bt)
+  sj(url,"bb：","：bb",bb)
+  sj(url,"gxnr：","：gxnr",gxnr)
+  ss("云版本："+bb+"\n本地版本："+bdbbh+"\n\n"+gxnr,nr)
+  ufnsui()
+  {
+    utw("@20230923_163802_0000.png",bt,nr,"去更新","不更新",true,v)
+    {
+      bfm("@ajyx/snes_pop-7a6d3.ogg")
+      hws("https://juyp.hucl.link/s/krFX?password=JuFengCloud")
+      endutw()
+    }
+    else
+    {
+      bfm("@ajyx/snes_pop-7a6d3.ogg")
+      endutw()
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="34" did="44" type="RelativeLayout">
+<ppt>width=-1
+height=55dp</ppt>
+<event></event>
+</View>
+<View id="35" did="34" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="36" did="35" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@ic_group.png
+layout_gravity=center
+layout_marginLeft=17dp</ppt>
+<event></event>
+</View>
+<View id="37" did="35" type="TextView">
+<ppt>width=-2
+height=-2
+text=加入官方群
+textsize=18sp
+textcolor=#ff000000
+layout_gravity=center
+layout_marginLeft=18dp
+typeface=@Ex_GameFont.ttf</ppt>
+<event></event>
+</View>
+<View id="38" did="34" type="Button">
+<ppt>width=-1
+height=-1
+text=
+background=through
+BackgroundRipple=#ffd1d1d1</ppt>
+<event><eventItme type="clicki">bfm("@ajyx/snes_pop-7a6d3.ogg")
+t()
+{
+  hw("https://qm.qq.com/q/aRbAxh1jt6")
+}</eventItme></event>
+</View>
+<View id="46" did="44" type="RelativeLayout">
+<ppt>width=-1
+height=55dp</ppt>
+<event></event>
+</View>
+<View id="47" did="46" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="48" did="47" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@ic_language.png
+layout_gravity=center
+layout_marginLeft=17dp</ppt>
+<event></event>
+</View>
+<View id="49" did="47" type="TextView">
+<ppt>width=-2
+height=-2
+text=关注开发者的bilibili
+textsize=18sp
+textcolor=#ff000000
+layout_gravity=center
+layout_marginLeft=18dp
+typeface=@Ex_GameFont.ttf</ppt>
+<event></event>
+</View>
+<View id="50" did="46" type="Button">
+<ppt>width=-1
+height=-1
+text=
+background=through
+BackgroundRipple=#ffd1d1d1</ppt>
+<event><eventItme type="clicki">hw("https://b23.tv/x4qVwlq")
+bfm("@ajyx/snes_pop-7a6d3.ogg")</eventItme></event>
+</View>
+<View id="51" did="44" type="RelativeLayout">
+<ppt>width=-1
+height=55dp</ppt>
+<event></event>
+</View>
+<View id="52" did="51" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="53" did="52" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@radar_card_guide_hot.png
+layout_gravity=center
+layout_marginLeft=17dp</ppt>
+<event></event>
+</View>
+<View id="54" did="52" type="TextView">
+<ppt>width=-2
+height=-2
+text=设置隐私保护密码
+textsize=18sp
+textcolor=#ff000000
+layout_gravity=center
+layout_marginLeft=18dp
+typeface=@Ex_GameFont.ttf</ppt>
+<event></event>
+</View>
+<View id="55" did="51" type="Button">
+<ppt>width=-1
+height=-1
+text=
+background=through
+BackgroundRipple=#ffd1d1d1</ppt>
+<event><eventItme type="clicki">uigo("设置隐私保护.iyu")
+lan(8)
+bfm("@ajyx/snes_pop-7a6d3.ogg")</eventItme></event>
+</View>
+<View id="56" did="44" type="RelativeLayout">
+<ppt>width=-1
+height=55dp</ppt>
+<event></event>
+</View>
+<View id="57" did="56" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="58" did="57" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@bai_XiaoHeng377.png
+layout_gravity=center
+layout_marginLeft=17dp</ppt>
+<event></event>
+</View>
+<View id="59" did="57" type="TextView">
+<ppt>width=-2
+height=-2
+text=删除隐私保护密码
+textsize=18sp
+textcolor=#ff000000
+layout_gravity=center
+layout_marginLeft=18dp
+typeface=@Ex_GameFont.ttf</ppt>
+<event></event>
+</View>
+<View id="60" did="56" type="Button">
+<ppt>width=-1
+height=-1
+text=
+background=through
+BackgroundRipple=#ffd1d1d1</ppt>
+<event><eventItme type="clicki">t()
+{
+  s a ="$Android/.JuFengCloud/.ysbhmm.huclmm"
+  fd(a,b)
+  f(b == true)
+  {
+    ufnsui()
+    {
+      tw("成功删除")
+    }
+  }
+  else
+  {
+    ufnsui()
+    {
+      tw("删除失败")
+    }
+  }
+}
+bfm("@ajyx/snes_pop-7a6d3.ogg")</eventItme></event>
+</View>
+<View id="61" did="44" type="RelativeLayout">
+<ppt>width=-1
+height=55dp</ppt>
+<event></event>
+</View>
+<View id="62" did="61" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="63" did="62" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@ic_receipt.png
+layout_gravity=center
+layout_marginLeft=17dp</ppt>
+<event></event>
+</View>
+<View id="64" did="62" type="TextView">
+<ppt>width=-2
+height=-2
+text=飓风云音乐
+textsize=18sp
+textcolor=#ff000000
+layout_gravity=center
+layout_marginLeft=18dp
+typeface=@Ex_GameFont.ttf</ppt>
+<event></event>
+</View>
+<View id="65" did="61" type="Button">
+<ppt>width=-1
+height=-1
+text=
+background=through
+BackgroundRipple=#ffd1d1d1</ppt>
+<event><eventItme type="clicki">hw("http://api.hucl.link/")
+bfm("@ajyx/snes_pop-7a6d3.ogg")
+/.
+t()
+{
+  s a ="@Hudu - Logo.png"
+  s b ="下线本功能了"
+  s c ="下线本功能了"
+  s d ="知道了"
+  ufnsui()
+  {
+    utw(a,b,c,d,false,v)
+    {
+      endutw()
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="66" did="44" type="RelativeLayout">
+<ppt>width=-1
+height=55dp</ppt>
+<event></event>
+</View>
+<View id="67" did="66" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="68" did="67" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@ic_email.png
+layout_gravity=center
+layout_marginLeft=17dp</ppt>
+<event></event>
+</View>
+<View id="69" did="67" type="TextView">
+<ppt>width=-2
+height=-2
+text=二维码工具
+textsize=18sp
+textcolor=#ff000000
+layout_gravity=center
+layout_marginLeft=18dp
+typeface=@Ex_GameFont.ttf</ppt>
+<event></event>
+</View>
+<View id="70" did="66" type="Button">
+<ppt>width=-1
+height=-1
+text=
+background=through</ppt>
+<event><eventItme type="clicki">uigo("二维码工具.iyu")
+lan(0)
+bfm("@ajyx/snes_pop-7a6d3.ogg")</eventItme></event>
+</View>
+<View id="73" did="44" type="RelativeLayout">
+<ppt>width=-1
+height=55dp</ppt>
+<event></event>
+</View>
+<View id="74" did="73" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="75" did="74" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@ic_settings.png
+layout_gravity=center
+layout_marginLeft=17dp</ppt>
+<event></event>
+</View>
+<View id="76" did="74" type="TextView">
+<ppt>width=-2
+height=-2
+text=设置
+textsize=18sp
+textcolor=#ff000000
+layout_gravity=center
+layout_marginLeft=18dp
+typeface=@Ex_GameFont.ttf</ppt>
+<event></event>
+</View>
+<View id="77" did="73" type="Button">
+<ppt>width=-1
+height=-1
+text=
+background=through</ppt>
+<event><eventItme type="clicki">bfm("@ajyx/snes_pop-7a6d3.ogg")
+uigo("设置.iyu")
+lan(0)
+end()</eventItme></event>
+</View>
+<View id="118" did="44" type="RelativeLayout">
+<ppt>width=-1
+height=55dp
+visibility=gone</ppt>
+<event><eventItme type="clicki">t()
+{
+  bfm("@ajyx/snes_pop-7a6d3.ogg")
+  ufnsui()
+  {
+    uigo("chat.iyu")
+    lan(0)
+  }
+}</eventItme></event>
+</View>
+<View id="119" did="118" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=left|center</ppt>
+<event></event>
+</View>
+<View id="120" did="119" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@logo/Music/ic_play_circle_outline_black_24dp.png
+layout_gravity=center
+layout_marginLeft=17dp</ppt>
+<event></event>
+</View>
+<View id="121" did="119" type="TextView">
+<ppt>width=-2
+height=-2
+text=打开飓音乐
+textsize=18sp
+textcolor=#ff000000
+layout_gravity=center
+layout_marginLeft=18dp
+typeface=@Ex_GameFont.ttf</ppt>
+<event></event>
+</View>
+<View id="122" did="118" type="Button">
+<ppt>width=-1
+height=-1
+text=
+background=through</ppt>
+<event><eventItme type="clicki">bfm("@ajyx/snes_pop-7a6d3.ogg")
+uapp("com.JuMusic.jfgc",uapp)</eventItme></event>
+</View>
+<View id="123" did="44" type="RelativeLayout">
+<ppt>width=-1
+height=55dp
+visibility=gone</ppt>
+<event><eventItme type="clicki">t()
+{
+  bfm("@ajyx/snes_pop-7a6d3.ogg")
+  ufnsui()
+  {
+    uigo("chat.iyu")
+    lan(0)
+  }
+}</eventItme></event>
+</View>
+<View id="124" did="123" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=left|center</ppt>
+<event></event>
+</View>
+<View id="125" did="124" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@JuFengCloud/res/admin.png
+layout_gravity=center
+layout_marginLeft=17dp</ppt>
+<event></event>
+</View>
+<View id="126" did="124" type="TextView">
+<ppt>width=-2
+height=-2
+text=本地图片扫描工具
+textsize=18sp
+textcolor=#ff000000
+layout_gravity=center
+layout_marginLeft=18dp
+typeface=@Ex_GameFont.ttf</ppt>
+<event></event>
+</View>
+<View id="127" did="123" type="Button">
+<ppt>width=-1
+height=-1
+text=
+background=through</ppt>
+<event><eventItme type="clicki">t()
+{
+  bfm("@ajyx/snes_pop-7a6d3.ogg")
+  ufnsui()
+  {
+    uigo("图片扫描工具.iyu")
+    lan(0)
+  }
+}</eventItme></event>
+</View>
+<View id="128" did="44" type="RelativeLayout">
+<ppt>width=-1
+height=55dp</ppt>
+<event><eventItme type="clicki">t()
+{
+  bfm("@ajyx/snes_pop-7a6d3.ogg")
+  ufnsui()
+  {
+    uigo("chat.iyu")
+    lan(0)
+  }
+}</eventItme></event>
+</View>
+<View id="129" did="128" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=left|center</ppt>
+<event></event>
+</View>
+<View id="130" did="129" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@ic_receipt.png
+layout_gravity=center
+layout_marginLeft=17dp</ppt>
+<event></event>
+</View>
+<View id="131" did="129" type="TextView">
+<ppt>width=-2
+height=-2
+text=卡死性测试
+textsize=18sp
+textcolor=#ff000000
+layout_gravity=center
+layout_marginLeft=18dp
+typeface=@Ex_GameFont.ttf</ppt>
+<event></event>
+</View>
+<View id="132" did="128" type="Button">
+<ppt>width=-1
+height=-1
+text=
+background=through</ppt>
+<event><eventItme type="clicki">t()
+{
+  bfm("@ajyx/snes_pop-7a6d3.ogg")
+  ufnsui()
+  {
+    uigo("卡死性测试.iyu")
+    lan(6)
+  }
+}</eventItme></event>
+</View>
+<View id="113" did="44" type="RelativeLayout">
+<ppt>width=-1
+height=55dp</ppt>
+<event><eventItme type="clicki">t()
+{
+  bfm("@ajyx/snes_pop-7a6d3.ogg")
+  ufnsui()
+  {
+    uigo("chat.iyu")
+    lan(0)
+  }
+}</eventItme></event>
+</View>
+<View id="114" did="113" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=left|center</ppt>
+<event></event>
+</View>
+<View id="115" did="114" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@logo/GitHub/GitHub.png
+layout_gravity=center
+layout_marginLeft=17dp</ppt>
+<event></event>
+</View>
+<View id="116" did="114" type="TextView">
+<ppt>width=-2
+height=-2
+text=飓风云开源仓库
+textsize=18sp
+textcolor=#ff000000
+layout_gravity=center
+layout_marginLeft=18dp
+typeface=@Ex_GameFont.ttf</ppt>
+<event></event>
+</View>
+<View id="117" did="113" type="Button">
+<ppt>width=-1
+height=-1
+text=
+background=through</ppt>
+<event><eventItme type="clicki">t()
+{
+  bfm("@ajyx/snes_pop-7a6d3.ogg")
+  ufnsui()
+  {
+    hws("https://github.com/Beiyang5325/JuFengCloud-S")
+  }
+}</eventItme></event>
+</View>
+<View id="98" did="44" type="CardView">
+<ppt>width=-1
+height=84dp
+app_CardcornerRadius=25dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+layout_marginTop=5dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="99" did="98" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="100" did="99" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="101" did="100" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@20231014_080911_0000.png</ppt>
+<event></event>
+</View>
+<View id="102" did="99" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=top|right</ppt>
+<event><eventItme type="clicki">hw(sss.gz1url)</eventItme></event>
+</View>
+<View id="103" did="102" type="CardView">
+<ppt>width=55dp
+height=14dp
+layout_marginTop=10dp
+layout_marginRight=15dp</ppt>
+<event></event>
+</View>
+<View id="104" did="103" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=left|center</ppt>
+<event></event>
+</View>
+<View id="106" did="104" type="ImageButton">
+<ppt>width=10dp
+height=10dp
+src=17301533
+background=through
+layout_marginLeft=6dp</ppt>
+<event><eventItme type="clicki">us(menu.98,"visibility","gone")</eventItme></event>
+</View>
+<View id="107" did="104" type="TextView">
+<ppt>width=-2
+height=-2
+text=关闭广告
+textColor=#ff000000
+textSize=5sp
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="83" did="44" type="RelativeLayout">
+<ppt>width=-1
+height=55dp</ppt>
+<event></event>
+</View>
+<View id="84" did="83" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="85" did="84" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@tb/cbl/sj.png
+layout_gravity=center
+layout_marginLeft=17dp</ppt>
+<event></event>
+</View>
+<View id="86" did="84" type="TextView">
+<ppt>width=-2
+height=-2
+text=随机白丝图片
+textsize=18sp
+textcolor=#ff000000
+layout_gravity=center
+layout_marginLeft=18dp
+typeface=@Ex_GameFont.ttf</ppt>
+<event></event>
+</View>
+<View id="87" did="83" type="Button">
+<ppt>width=-1
+height=-1
+text=
+background=through</ppt>
+<event><eventItme type="clicki">bfm("@ajyx/snes_pop-7a6d3.ogg")
+//
+t()
+{
+  ufnsui()
+  {
+    tw("加载的可能有点慢",1)
+    utw("@20230923_163802_0000.png","随机白丝图片","sjbst.iyu","关闭页面",true,v)
+    {
+      endutw()
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="88" did="44" type="RelativeLayout">
+<ppt>width=-1
+height=55dp</ppt>
+<event></event>
+</View>
+<View id="89" did="88" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="90" did="89" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@tb/cbl/sj.png
+layout_gravity=center
+layout_marginLeft=17dp</ppt>
+<event></event>
+</View>
+<View id="91" did="89" type="TextView">
+<ppt>width=-2
+height=-2
+text=随机黑丝图片
+textsize=18sp
+textcolor=#ff000000
+layout_gravity=center
+layout_marginLeft=18dp
+typeface=@Ex_GameFont.ttf</ppt>
+<event></event>
+</View>
+<View id="92" did="88" type="Button">
+<ppt>width=-1
+height=-1
+text=
+background=through</ppt>
+<event><eventItme type="clicki">bfm("@ajyx/snes_pop-7a6d3.ogg")
+//
+t()
+{
+  ufnsui()
+  {
+    tw("加载的可能有点慢",1)
+    utw("@20230923_163802_0000.png","随机黑丝图片","sjhst.iyu","关闭页面",true,v)
+    {
+      endutw()
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="93" did="44" type="RelativeLayout">
+<ppt>width=-1
+height=55dp</ppt>
+<event></event>
+</View>
+<View id="94" did="93" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="95" did="94" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@tb/cbl/sj.png
+layout_gravity=center
+layout_marginLeft=17dp</ppt>
+<event></event>
+</View>
+<View id="96" did="94" type="TextView">
+<ppt>width=-2
+height=-2
+text=随机美女图片
+textsize=18sp
+textcolor=#ff000000
+layout_gravity=center
+layout_marginLeft=18dp
+typeface=@Ex_GameFont.ttf</ppt>
+<event></event>
+</View>
+<View id="97" did="93" type="Button">
+<ppt>width=-1
+height=-1
+text=
+background=through</ppt>
+<event><eventItme type="clicki">bfm("@ajyx/snes_pop-7a6d3.ogg")
+//
+t()
+{
+  ufnsui()
+  {
+    tw("加载的可能有点慢",1)
+    utw("@20230923_163802_0000.png","随机美女图片","随机美女图片.iyu","关闭页面",true,v)
+    {
+      endutw()
+    }
+  }
+}</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">loadjar("armeabi-v7a/classes.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(45,a)
+gvs(45,b)
+javanew(mBs,mB,"Context",activity)
+urvw(45)
+nvw(mBs,1)
+nvw(b,mBs)</eventItme></UIEventset>

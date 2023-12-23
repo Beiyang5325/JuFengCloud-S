@@ -1,0 +1,7 @@
+<View id="1" did="0" type="WebView">
+<ppt>width=-2
+height=-2
+url=https://v2.api-m.com/api/meinvpic?return=302</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

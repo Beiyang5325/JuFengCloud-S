@@ -1,0 +1,48 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=top|center</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="CardView">
+<ppt>width=-1
+height=55dp
+app_CardcornerRadius=28dp
+app_CardElevation=15dp</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=left|center</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=飓风云-404
+textColor=#ff000000
+textSize=25sp
+layout_marginLeft=25dp
+typeface=@Ex_GameFont.ttf</ppt>
+<event></event>
+</View>
+<View id="5" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="7" did="5" type="WebView">
+<ppt>width=-1
+height=-1
+url=@JuFengCloud/null-404/html-Resources.html</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="downkey">f(st_kC==4)
+{
+  tws(vpn_no,"请连接网络（还有种可能是服务器崩了）",0)
+}</eventItme><eventItme type="loading">uycl(true)</eventItme></UIEventset>

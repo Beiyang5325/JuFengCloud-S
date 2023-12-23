@@ -1,0 +1,112 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="CardView">
+<ppt>width=300dp
+height=380dp
+app_CardcornerRadius=35dp</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=top|center</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="RoundImageView">
+<ppt>width=65dp
+height=65dp
+src=@20230923_163802_0000.png
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="5" did="3" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=top|center</ppt>
+<event></event>
+</View>
+<View id="10" did="6" type="CardView">
+<ppt>width=-1
+height=55dp
+app_CardcornerRadius=25dp
+app_CardElevation=64dp
+layout_marginTop=25dp</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=公告服务器地址
+gravity=center
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="8" did="6" type="CardView">
+<ppt>width=-1
+height=55dp
+app_CardcornerRadius=25dp
+app_CardElevation=64dp
+layout_marginTop=25dp
+layout_marginBottom=204dp
+</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="Button">
+<ppt>width=-1
+height=-1
+text=以上地址设置为\n公告服务器地址
+textColor=#ff000000
+typeface=@Ex_GameFont.ttf
+gravity=center
+background=#ff98ff7f</ppt>
+<event><eventItme type="clicki">ug(11,"text",url)
+//
+t()
+{
+  ss("确定设置："+url+"\n为🌀飓风云☁️的公告服务器地址吗？",ggnr)
+  ss("[common]\njfgc_system = "+url,ggfw)
+  ufnsui()
+  {
+    utw("@20230923_163802_0000.png","提醒",ggnr,"确定","不设为公告服务器地址了",true,v)
+    {
+      bfm("@ajyx/snes_pop-7a6d3.ogg")
+      s ggdzcfwz ="%欢乐的北洋/JuFengCloud/JuFengCloud/ggfwqdz.jfgc.ini"
+      s bm ="utf-8"
+      fw(ggdzcfwz,ggfw,bm)
+    }
+    else
+    {
+      bfm("@ajyx/snes_pop-7a6d3.ogg")
+      endutw()
+    }
+  }
+}</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">t()
+{
+  ufnsui()
+  {
+    utw("@20230923_163802_0000.png","提醒","公告服务器地址 功能未完全开发完成，是否继续访问？","是","否",true,v)
+    {
+      endutw()
+    }
+    else
+    {
+      lan(0)
+      end()
+    }
+  }
+}</eventItme></UIEventset>

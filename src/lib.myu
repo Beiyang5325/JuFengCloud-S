@@ -1,0 +1,22 @@
+fn 404()
+t()
+{
+  s url-api ="http://api.hucl.link/"
+  hs(url-api,apiht)
+  syso(apiht)
+  //
+  sj(apiht,"&lt;title&gt;","&lt;/title&gt;",apiyz)
+  f(apiyz ? "404")
+  {
+    uigo("404.iyu")
+    lan(6)
+    end()
+  }
+  else f(apiyz == null)
+  {
+    uigo("404.iyu")
+    lan(6)
+    end()
+  }
+}
+end fn

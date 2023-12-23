@@ -1,0 +1,364 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center
+background=#fff5f5f7</ppt>
+<event></event>
+</View>
+<View id="17" did="1" type="CardView">
+<ppt>width=-2
+height=-2
+app_CardcornerRadius=25dp
+app_CardElevation=25dp</ppt>
+<event></event>
+</View>
+<View id="18" did="17" type="Button">
+<ppt>width=35dp
+height=35dp
+text=✘
+textColor=#ffff0000
+background=#96e151b8</ppt>
+<event><eventItme type="clicki">lan(0)
+end()</eventItme></event>
+</View>
+<View id="2" did="1" type="CardView">
+<ppt>width=-2
+height=-2
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="Button">
+<ppt>width=35dp
+height=35dp
+text=←
+textColor=#ff1d1d1f
+background=#96e151b8</ppt>
+<event><eventItme type="clicki">f(st_kC == 4)
+{
+  f(ss.yclm == "no")
+  {
+    //返
+    cls(sss.jar, "com.tencent.smtt.sdk.WebView", cl)
+    javax(is, sss.wv, cl, "canGoBack")
+    f(is)
+    {
+      javax(a, sss.wv, cl, "goBack")
+    }
+    else
+    {
+      //如果没有上一页就退出
+      end()
+    }
+  }
+  else f(ss.yclm == "yes")
+  {
+    us(2,"visibility","visible")
+    tw("已取消工具栏隐藏",0)
+    ss yclm ="no"
+  }
+  else
+  {
+    //返
+    cls(sss.jar, "com.tencent.smtt.sdk.WebView", cl)
+    javax(is, sss.wv, cl, "canGoBack")
+    f(is)
+    {
+      javax(a, sss.wv, cl, "goBack")
+    }
+    else
+    {
+      //如果没有上一页就退出
+      end()
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="4" did="1" type="CardView">
+<ppt>width=-2
+height=-2
+app_CardcornerRadius=25dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="Button">
+<ppt>width=35dp
+height=35dp
+text=➣
+textColor=#ff1d1d1f
+background=#96e151b8
+
+</ppt>
+<event><eventItme type="clicki">f(st_kC == 4)
+{
+  f(ss.yclm == "no")
+  {
+    //返
+    cls(sss.jar, "com.tencent.smtt.sdk.WebView", cl)
+    javax(is, sss.wv, cl, "canGoBack")
+    f(is)
+    {
+      javax(a, sss.wv, cl, "goBack")
+    }
+    else
+    {
+      //如果没有上一页就退出
+      end()
+    }
+  }
+  else f(ss.yclm == "yes")
+  {
+    us(2,"visibility","visible")
+    tw("已取消工具栏隐藏",0)
+    ss yclm ="no"
+  }
+  else
+  {
+    //返
+    cls(sss.jar, "com.tencent.smtt.sdk.WebView", cl)
+    javax(is, sss.wv, cl, "canGoBack")
+    f(is)
+    {
+      javax(a, sss.wv, cl, "goBack")
+    }
+    else
+    {
+      //如果没有上一页就退出
+      end()
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="6" did="1" type="CardView">
+<ppt>width=112dp
+height=-2
+app_CardcornerRadius=15dp</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+textColor=#ff000000
+hint=URL
+gravity=center
+singleLine=true
+background=#bc2fb783</ppt>
+<event></event>
+</View>
+<View id="8" did="1" type="CardView">
+<ppt>width=-2
+height=-2
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="Button">
+<ppt>width=35dp
+height=35dp
+text=╬
+textColor=#ff1d1d1f
+background=#96e151b8</ppt>
+<event><eventItme type="clicki">ug(7,"text",url)
+javax(b, sss.wv, ss.cl, "loadUrl", "String", url)</eventItme><eventItme type="press">ug(7,"text",txt)
+ss("https://cn.bing.com/search?q="+txt,url)
+syso(url)
+ug(14,"url",url)</eventItme></event>
+</View>
+<View id="10" did="1" type="CardView">
+<ppt>width=-2
+height=-2
+app_CardcornerRadius=25dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="Button">
+<ppt>width=35dp
+height=35dp
+text=※
+textColor=#ff1d1d1f
+background=#96e151b8</ppt>
+<event><eventItme type="clicki">ug(14,"url",ym)
+sss ymurl = ym
+uigo("源.iyu")
+lan(0)</eventItme></event>
+</View>
+<View id="12" did="1" type="CardView">
+<ppt>width=-2
+height=-2
+app_CardcornerRadius=25dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="Button">
+<ppt>width=35dp
+height=35dp
+text=⇩
+textColor=#ff1d1d1f
+background=#96e151b8</ppt>
+<event><eventItme type="clicki">hdduigo()</eventItme></event>
+</View>
+<View id="15" did="1" type="CardView">
+<ppt>width=-2
+height=-2
+app_CardcornerRadius=25dp
+app_CardElevation=25dp</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="Button">
+<ppt>width=35dp
+height=35dp
+text=○
+textColor=#ff1d1d1f
+background=#96e151b8</ppt>
+<event><eventItme type="clicki">ug(7,"text",txt)
+ss("https://cn.bing.com/search?q="+txt,url)
+//us(14,"url",url)
+//
+javax(b, sss.wv, ss.cl, "loadUrl", "String", url)</eventItme><eventItme type="press">s a =null
+us(7,"txt",a)</eventItme></event>
+</View>
+<View id="14" did="0" type="WebView">
+<ppt>width=-1
+height=-1
+url=@index.html</ppt>
+<event><eventItme type="onpagefinished">/.
+ug(14,"url",txt)
+us(7,"text",txt)
+time("5",dqsj)
+s a ="%欢乐的北洋/JuFengCloud/HQYM/Log.log"
+s b ="utf-8"
+fr(a,b,s)
+ss(s+"\n"+dqsj+"："+txt,txt)
+s a ="%欢乐的北洋/JuFengCloud/HQYM/Log.log"
+s ta ="$欢乐的北洋/JuFengCloud/HQYM/Log.log"
+s c ="utf-8"
+fw(a,txt,c)
+//fw(at,b,s)</eventItme><eventItme type="ondownloadstart">t()
+{
+  ufnsui()
+  {
+    ss("是否下载："+st_url,urls)
+    utw("@20230923_163802_0000.png","提醒",urls,"是","不",true,v)
+    {
+      hw(st_url)
+      endutw()
+    }
+    else
+    {
+      endutw()
+    }
+  }
+}</eventItme><eventItme type="onreceivederror">s not ="@not.html"
+us(14,"url",not)
+us(7,"text","出错了！இдஇ")</eventItme></event>
+</View>
+<UIEventset><eventItme type="downkey">f(st_kC == 4)
+{
+  f(ss.yclm == "no")
+  {
+    //返
+    cls(sss.jar, "com.tencent.smtt.sdk.WebView", cl)
+    javax(is, sss.wv, cl, "canGoBack")
+    f(is)
+    {
+      javax(a, sss.wv, cl, "goBack")
+    }
+    else
+    {
+      //如果没有上一页就退出
+      end()
+    }
+  }
+  else f(ss.yclm == "yes")
+  {
+    us(2,"visibility","visible")
+    tw("已取消工具栏隐藏",0)
+    ss yclm ="no"
+  }
+  else
+  {
+    //返
+    cls(sss.jar, "com.tencent.smtt.sdk.WebView", cl)
+    javax(is, sss.wv, cl, "canGoBack")
+    f(is)
+    {
+      javax(a, sss.wv, cl, "goBack")
+    }
+    else
+    {
+      //如果没有上一页就退出
+      end()
+    }
+  }
+}</eventItme><eventItme type="loading">//vpn验证
+fn vpn.vpn()
+//隐藏
+uycl(true)
+f(sss.qdyz != "true")
+{
+  tw("未正常启动，正在重新启动",0)
+  lan(0)
+  uigo("mian.iyu")
+  end()
+}
+else f(sss.qdyz == "true")
+{
+  tw("基于 源码-浏览器",0)
+}
+/.
+//广告实现
+t()
+{
+  ufnsui()
+  {
+    uigo("AD.iyu")
+    lan(0)
+  }
+}
+./
+//x5内核引入
+f(sss.jar == null)
+{
+//载入sdk
+fc("@JuFengCloud/x5/JuFengCloud_x5.jar","%欢乐的北洋/JuFengCloud/x5/a.jar",c)
+//输入赋值变量，语言类型，模块mk的abc方法，输入参数1
+call(sss.jar, "mlua", "a.loadDex","%欢乐的北洋/JuFengCloud/x5/a.jar")
+
+}
+
+s jar = sss.jar
+
+//获取类
+cls(jar, "com.tencent.smtt.sdk.WebView", cl)
+cls(jar, "com.tencent.smtt.sdk.WebViewClient", clwc)
+cls(jar, "com.tencent.smtt.sdk.WebSettings", clws)
+
+//创建浏览器
+javanew(sss.wv, cl, "android.content.Context", activity)
+javanew(lps, "android.view.ViewGroup$LayoutParams", "int", -1, "int", -1)
+java(b, sss.wv, "android.view.View.setLayoutParams", "android.view.ViewGroup$LayoutParams", lps)
+
+//添加到界面
+nvw(sss.wv,14)
+
+//重写类
+javanew(wvc, clwc)
+javax(b,sss.wv,cl, "setWebViewClient",clwc,wvc)
+
+//设置浏览器支持的属性
+javax(wvs, sss.wv, cl, "getSettings")
+javax(b, wvs, clws, "setJavaScriptEnabled", "boolean", true)
+javax(b, wvs, clws, "setJavaScriptCanOpenWindowsAutomatically", "boolean", true)
+javax(b, wvs, clws, "setAllowFileAccess", "boolean", true)
+javax(b, wvs, clws, "setSupportZoom", "boolean", true)
+javax(b, wvs, clws, "setBuiltInZoomControls", "boolean", true)
+javax(b, wvs, clws, "setUseWideViewPort", "boolean", true)
+javax(b, wvs, clws, "setSupportMultipleWindows", "boolean", true)
+javax(b, wvs, clws, "setAppCacheEnabled", "boolean", true)
+javax(b, wvs, clws, "setDomStorageEnabled", "boolean", true)
+javax(b, wvs, clws, "setGeolocationEnabled", "boolean", true)
+
+//访问网址
+javax(b, sss.wv, cl, "loadUrl", "String", "http://debugtbs.qq.com/")
+ss cl = cl
+ss b = b</eventItme></UIEventset>

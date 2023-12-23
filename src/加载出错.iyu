@@ -1,0 +1,56 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+BackgroundColor=#ff85ffa3</ppt>
+<event></event>
+</View>
+<View id="5" did="1" type="RoundImageView">
+<ppt>width=125dp
+height=125dp
+src=@20230923_163802_0000.png</ppt>
+<event></event>
+</View>
+<View id="6" did="1" type="Button">
+<ppt>width=-2
+height=-2
+text=
+background=through</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=加载出错了！！\nヾ(;ﾟ;Д;ﾟ;)ﾉﾞ
+typeface=@Ex_GameFont.ttf
+textColor=#ffffffff
+textSize=45sp
+gravity=center
+textIsSelectable=true</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="Button">
+<ppt>width=-2
+height=-2
+text=
+background=through</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="Button">
+<ppt>width=-1
+height=-2
+text=重新加载
+typeface=@Ex_GameFont.ttf
+background=#ff00ff0d
+textColor=#ffffffff
+textIsSelectable=true</ppt>
+<event><eventItme type="clicki">end()
+lan(0)
+bfm("@ajyx/snes_pop-7a6d3.ogg")</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">//vpn验证
+fn vpn.vpn()
+//竖屏
+ushsp(false)
+uycl(true)</eventItme><eventItme type="loadingComplete">uycl(true)</eventItme></UIEventset>

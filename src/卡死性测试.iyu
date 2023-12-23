@@ -1,0 +1,90 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=top|center</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=卡死性测试
+textColor=#ff000000
+typeface=@acbt80.ttf
+textSize=25sp
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="CardView">
+<ppt>width=105dp
+height=55dp
+layout_marginTop=35dp
+app_CardcornerRadius=25dp
+app_CardElevation=15dp</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="Button">
+<ppt>width=-1
+height=-1
+text=开始测试
+textColor=#ff000000
+typeface=@acbt80.ttf
+textSize=15sp
+background=through</ppt>
+<event><eventItme type="clicki">s sjss ="1"
+s sjs2 ="1"
+t()
+{
+  w(true)
+  {
+    s+(sjs2,sjss,sjss)
+    syso(sjss)
+    ufnsui()
+    {
+      ug(8,"text",t)
+      ss("分数："+sjss+"\n"+t,tyst)
+      us(8,"text",tyst)
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="6" did="1" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=25dp
+app_CardElevation=15dp
+layout_marginLeft=15dp
+layout_marginTop=15dp
+layout_marginRight=15dp
+layout_marginBottom=15dp</ppt>
+<event></event>
+</View>
+<View id="9" did="6" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="7" did="9" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=top|left|center
+layout_marginLeft=15dp
+layout_marginTop=15dp
+layout_marginRight=15dp
+layout_marginBottom=15dp</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本8
+layout_marginLeft=15dp
+layout_marginTop=15dp
+layout_marginRight=15dp
+layout_marginBottom=15dp
+textColor=#ff000000
+typeface=@acbt80.ttf</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl(true)</eventItme></UIEventset>

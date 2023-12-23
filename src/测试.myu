@@ -1,0 +1,8 @@
+fn base64解码(bt,color)
+cls("android.util.Base64",cls_base64)
+javax(bytes,bt,"String","getBytes","String","utf-8")
+javags(NO_WRAP,null,cls_base64,"NO_WRAP")
+javax(bytes2,null,cls_base64,"encode","byte[]",bytes,"int",NO_WRAP)
+javanew(sss.bt,"String","byte[]",bytes2,"String","utf-8")
+syso(sss.bt)
+end fn

@@ -1,0 +1,381 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=#da75ff7e</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="CardView">
+<ppt>width=310dp
+height=450dp
+app_CardcornerRadius=25dp
+app_CardElevation=25dp</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=top|center</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="RoundImageView">
+<ppt>width=70dp
+height=70dp
+src=@20230923_163802_0000.png
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="7" did="5" type="TextView">
+<ppt>width=-2
+height=-2
+text=🌀飓风云☁️
+textColor=#ff000000
+textSize=30sp
+layout_marginTop=12dp
+typeface=@Ex_GameFont.ttf
+textIsSelectable=true</ppt>
+<event></event>
+</View>
+<View id="8" did="5" type="CardView">
+<ppt>width=-1
+height=55dp
+app_CardcornerRadius=25dp
+app_CardElevation=25dp
+layout_marginTop=15dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center_vertical
+background=#da75ff7e</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="RoundImageView">
+<ppt>width=35dp
+height=35dp
+src=@ui-tb-1.png
+layout_marginLeft=25dp</ppt>
+<event></event>
+</View>
+<View id="12" did="10" type="TextView">
+<ppt>width=-2
+height=-2
+text=进入云盘
+layout_marginLeft=15dp
+textColor=#ff000000
+textSize=15sp
+typeface=@Ex_GameFont.ttf</ppt>
+<event></event>
+</View>
+<View id="13" did="9" type="Button">
+<ppt>width=-1
+height=-1
+text=
+background=through</ppt>
+<event><eventItme type="clicki">bfm("@ajyx/snes_pop-7a6d3.ogg")
+
+f(ss.a==2)
+{
+}
+else
+{
+us(main1.5,"currentitem",1)
+ngde("15","#fdfdfd",a)
+us(mian1.9,"background",a)
+us(mian1.6,"background","white")
+us(mian1.12,"background","white")
+dhas(dh, 9, "translationY",0,-30)
+dh(dh, "duration",500)
+dhast(dhlist, "together",dh)
+dh(dhlist, "start")
+us(mian1.11,"visibility","visible")
+us(mian1.8,"visibility","invisible")
+us(mian1.14,"visibility","invisible")
+f(ss.a==1)
+{
+dhas(dh,6,"translationY",-30,0)
+dh(dh, "duration",500)
+dhast(dhlist, "together",dh)
+dh(dhlist, "start")
+}
+else f(ss.a==3)
+{
+dhas(dh,12,"translationY",-30,0)
+dh(dh, "duration",500)
+dhast(dhlist, "together",dh)
+dh(dhlist,"start")
+}
+ss a=2
+}
+</eventItme></event>
+</View>
+<View id="14" did="5" type="CardView">
+<ppt>width=-1
+height=55dp
+app_CardcornerRadius=25dp
+app_CardElevation=25dp
+layout_marginTop=25dp</ppt>
+<event></event>
+</View>
+<View id="15" did="14" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center_vertical
+background=#ff73efdc</ppt>
+<event></event>
+</View>
+<View id="17" did="16" type="RoundImageView">
+<ppt>width=35dp
+height=35dp
+src=@ui-tb-2.png
+layout_marginLeft=25dp</ppt>
+<event></event>
+</View>
+<View id="18" did="16" type="TextView">
+<ppt>width=-2
+height=-2
+text=共享文件
+layout_marginLeft=15dp
+textColor=#ff000000
+textSize=15sp
+typeface=@Ex_GameFont.ttf</ppt>
+<event></event>
+</View>
+<View id="19" did="15" type="Button">
+<ppt>width=-1
+height=-1
+text=
+background=through</ppt>
+<event><eventItme type="clicki">bfm("@ajyx/snes_pop-7a6d3.ogg")
+//tws(v,"不支持",0)
+uigo("共享文件.iyu")
+lan(0)</eventItme></event>
+</View>
+<View id="20" did="5" type="CardView">
+<ppt>width=-1
+height=55dp
+app_CardcornerRadius=25dp
+app_CardElevation=25dp
+layout_marginTop=25dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="21" did="20" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="22" did="21" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center_vertical
+background=#ff514510</ppt>
+<event></event>
+</View>
+<View id="23" did="22" type="RoundImageView">
+<ppt>width=35dp
+height=35dp
+src=@ui-tb-3.png
+layout_marginLeft=25dp</ppt>
+<event></event>
+</View>
+<View id="24" did="22" type="TextView">
+<ppt>width=-2
+height=-2
+text=更多其他功能设置
+layout_marginLeft=15dp
+textColor=#ff000000
+textSize=15sp
+typeface=@Ex_GameFont.ttf</ppt>
+<event></event>
+</View>
+<View id="25" did="21" type="Button">
+<ppt>width=-1
+height=-1
+text=
+background=through</ppt>
+<event><eventItme type="clicki">bfm("@ajyx/snes_pop-7a6d3.ogg")
+
+f(ss.a==3)
+{
+}
+else
+{
+us(mian1.5,"currentitem",2)
+ngde("15","#fdfdfd",a)
+us(mian1.12,"background",a)
+us(mian1.6,"background","white")
+us(mian1.9,"background","white")
+dhas(dh, 12, "translationY",0,-30)
+dh(dh, "duration",500)
+dhast(dhlist, "together",dh)
+dh(dhlist, "start")
+us(mian1.14,"visibility","visible")
+us(mian1.8,"visibility","invisible")
+us(mian1.11,"visibility","invisible")
+f(ss.a==1)
+{
+dhas(dh,6,"translationY",-30,0)
+dh(dh, "duration",500)
+dhast(dhlist, "together",dh)
+dh(dhlist, "start")
+}
+else f(ss.a==2)
+{
+dhas(dh,9,"translationY",-30,0)
+dh(dh, "duration",500)
+dhast(dhlist, "together",dh)
+dh(dhlist,"start")
+}
+ss a=3
+}
+</eventItme></event>
+</View>
+<View id="26" did="5" type="CardView">
+<ppt>width=225dp
+height=55dp
+app_CardcornerRadius=25dp
+app_CardElevation=25dp
+layout_marginTop=25dp</ppt>
+<event></event>
+</View>
+<View id="27" did="26" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="29" did="27" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="30" did="29" type="RoundImageView">
+<ppt>width=35dp
+height=35dp
+src=@ui-tb-4.png
+layout_marginLeft=25dp</ppt>
+<event></event>
+</View>
+<View id="31" did="29" type="TextView">
+<ppt>width=-2
+height=-2
+text=WebDAV功能
+layout_marginLeft=15dp
+textColor=#ff000000
+textSize=12sp
+typeface=@Ex_GameFont.ttf</ppt>
+<event></event>
+</View>
+<View id="32" did="27" type="Button">
+<ppt>width=-1
+height=-1
+text=
+background=through
+</ppt>
+<event><eventItme type="clicki">bfm("@ajyx/snes_pop-7a6d3.ogg")
+//tw("此功能暂时下线")
+uigo("WebDAV.iyu")
+lan(0)</eventItme></event>
+</View>
+<View id="33" did="5" type="CardView">
+<ppt>width=-1
+height=55dp
+app_CardcornerRadius=25dp
+app_CardElevation=25dp
+layout_marginTop=25dp
+layout_marginBottom=64dp</ppt>
+<event></event>
+</View>
+<View id="34" did="33" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="35" did="34" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundColor=#ff00ff26</ppt>
+<event></event>
+</View>
+<View id="36" did="35" type="TextView">
+<ppt>width=-2
+height=-2
+text=重新加载公告
+textColor=#ff000000
+textSize=15sp
+typeface=@Ex_GameFont.ttf</ppt>
+<event></event>
+</View>
+<View id="38" did="34" type="Button">
+<ppt>width=-1
+height=-1
+text=
+background=through</ppt>
+<event><eventItme type="clicki">bfm("@ajyx/snes_pop-7a6d3.ogg")
+//tws(v,"不支持",0)
+//
+t()
+{
+  ufnsui()
+  {
+    tws(x,"正在加载公告中。。。",0)
+  }
+  //hs("http://jfgcht.hucl.link/huducloud/gg/ygg.txt",ygg)
+  hs("http://api.hucl.link/api/ht.php?nr=ygg.txt&dy=text",ygg)
+  sr(ygg,"&lt;br&gt;","\n",ygg)
+  ufnsui()
+  {
+    tw("公告加载成功૮(˶ᵔ ᵕ ᵔ˶)ა",0)
+  }
+  sj(ygg,"bt：","：bt",bt)
+  sj(ygg,"ggnr：","：ggnr",ggnr)
+  syso(bt)
+  syso(ggnr)
+  ufnsui()
+  {
+    utw("@Hudu - Logo.png",bt,ggnr,"明白了",true,v)
+    {
+      bfm("@ajyx/snes_pop-7a6d3.ogg")
+      endutw()
+    }
+  }
+}</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl(true)
+//vpn验证
+fn vpn.vpn()</eventItme><eventItme type="loadingComplete">dha(dh,false,true)
+dh(dh,"duration",2000)
+us(26,"dh",dh)</eventItme></UIEventset>

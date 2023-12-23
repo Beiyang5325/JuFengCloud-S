@@ -1,0 +1,21 @@
+fn sjnono()
+s sjss ="100"
+s sjs2 ="50"
+t()
+{
+  w(true)
+  {
+    s+(sjs2,sjss,sjss)
+    syso(sjss)
+  }
+}
+t()
+{
+  w(true)
+  {
+    s+(sjs2,sjss,sjss)
+    syso(sjss)
+  }
+}
+
+end fn

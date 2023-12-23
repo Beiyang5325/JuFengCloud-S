@@ -1,0 +1,37 @@
+<View id="1" did="0" type="WebView">
+<ppt>width=-1
+height=-1
+url=http://juyp.hucl.link/s/Q6SA</ppt>
+<event><eventItme type="onreceivederror">uigo("加载出错.iyu")
+end()</eventItme><eventItme type="ondownloadstart">t()
+{
+  ufnsui()
+  {
+    ss("是否下载："+st_url,urls)
+    utw("@20230923_163802_0000.png","提醒",urls,"是","不",true,v)
+    {
+      hw(st_url)
+      endutw()
+    }
+    else
+    {
+      endutw()
+    }
+  }
+}</eventItme></event>
+</View>
+<UIEventset><eventItme type="downkey">//退出延迟
+f(st_kC==4)
+{
+  f(sss.exit==null)
+  {
+    us(1,"gobackorforward",-1)
+    utw("@20230923_163802_0000.png","提醒！！","己返回上一页","返回主页",false,v)
+    {
+      end()
+      bfm("@ajyx/snes_pop-7a6d3.ogg")
+    }
+  }
+}</eventItme><eventItme type="loadingComplete">uycl(true)</eventItme><eventItme type="loading">//vpn验证
+fn vpn.vpn()
+uycl("#ffa4ff98",true)</eventItme></UIEventset>

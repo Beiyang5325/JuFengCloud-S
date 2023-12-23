@@ -1,0 +1,55 @@
+<View id="1" did="0" type="WebView">
+<ppt>width=-1
+height=-1
+url=http://juyp.hucl.link/connect</ppt>
+<event><eventItme type="onreceivederror">uigo("加载出错.iyu")
+end()</eventItme></event>
+</View>
+<UIEventset><eventItme type="downkey">//退出延迟
+f(st_kC==4)
+{
+f(sss.exit==null)
+{
+sss exit=0
+us(1,"gobackorforward",-1)
+tws(sas,"己返回上一页",0,"返回主页")
+{
+  end()
+}
+t()
+{
+stop(2000)
+sss exit=null
+}
+}
+}</eventItme><eventItme type="loadingComplete">/.
+t()
+{
+  s a ="@Hudu - Logo.png"
+  s b ="是否下载 WebDAV 连接工具"
+  s c ="是否下载 WebDAV 连接工具"
+  s d ="是"
+  s e ="否"
+  ufnsui()
+  {
+    utw(a,b,c,d,e,false,v)
+    {
+      hw("http://你的服务器地址/s/RMuL")
+      bfm("@ajyx/snes_pop-7a6d3.ogg")
+    }
+    else
+    {
+      endutw()
+      bfm("@ajyx/snes_pop-7a6d3.ogg")
+    }
+  }
+}
+stop(2000)
+./
+tws(v,"是否打开 Solid Explorer",0,"打开")
+{
+  bfm("@ajyx/snes_pop-7a6d3.ogg")
+  uapp("pl.solidexplorer2",h)
+}</eventItme><eventItme type="loading">//vpn验证
+fn vpn.vpn()
+uycl(true)</eventItme></UIEventset>

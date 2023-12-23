@@ -1,0 +1,32 @@
+fn vpn()
+s isVpn = false
+java(nis,null,"java.net.NetworkInterface.getNetworkInterfaces")
+f(nis != null)
+{
+java(list,null,"java.util.Collections.list","java.util.Enumeration",nis)
+for(ni;list)
+{
+java(up,ni,"java.net.NetworkInterface.isUp")
+java(ia,ni,"java.net.NetworkInterface.getInterfaceAddresses")
+java(size,ia,"java.util.List.size")
+f(up && size != 0)
+{
+java(name,ni,"java.net.NetworkInterface.getName")
+f(name == "tun0" || name == "ppp0")
+{
+s isVpn = true
+break
+}
+}
+}
+}
+f(isVpn==true)
+{
+syso("存在抓包环境")
+uigo("vpn1.iyu")
+lan(6)
+end()
+endcode
+}
+}
+end fn
