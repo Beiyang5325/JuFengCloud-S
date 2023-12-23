@@ -1,0 +1,115 @@
+【第一个PHP程序】
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>第一个PHP程序</title>
+<style type="text/css">
+<!--
+body,td,th {
+	font-size: 12px;
+}
+body {
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+-->
+</style></head>
+<body>
+<?php
+	echo "欢迎进入PHP的世界！！";
+?>
+</body>
+</html>
+
+【输出字符串】
+<title>输出字符串</title>
+<?php
+  echo "恭喜您走上PHP的编程之路！";
+?>
+
+
+【输出表格】
+<title>输出表格</title>
+<?php
+    echo "<table border=1 width=300>";
+    echo "<tr><td width=100 height=50>1</td>";
+    echo "<td width=100 height=50>2</td>";
+    echo "<td width=100 height=50>3</td></tr>";
+    echo "<tr><td width=100 height=50>4</td>";
+    echo "<td width=100 height=50>5</td>";
+    echo "<td width=100 height=50>6</td></tr>";
+    echo "<tr><td width=100 height=50>7</td>";
+    echo "<td width=100 height=50>8</td>";
+    echo "<td width=100 height=50>9</td></tr>";
+    echo "<tr><td width=100 height=50>10</td>";
+    echo "<td width=100 height=50>11</td>";
+    echo "<td width=100 height=50>12</td></tr>";
+    echo "</table>";
+?>
+
+【布尔类型实例】
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>布尔类型示例</title>
+<style type="text/css">
+<!--
+body,td,th {
+        font-size: 12px;
+}
+body {
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+}
+-->
+</style></head>
+<body>
+<div align="center">
+<?php
+        $boo = true;
+        if($boo == true)
+                echo '变量$boo为真!';
+        else
+                echo '变量$boo为假!!';
+?>
+</div>
+</body>
+</html>
+
+【单引号和双引号的区别】
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>单引号和双引号的区别</title>
+<style type="text/css">
+<!--
+body,td,th {
+	font-size: 12px;
+}
+body {
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+-->
+</style></head>
+<body>
+<div align="center">
+<?php
+	$i = '只会看到一遍';			//声明一个字符串变量
+	echo "$i";							//用双引号输出
+	echo "<p>";							//输出段标记
+	echo '$i';							//用单引号输出
+?>
+
+</div>
+</body>
+</html>
