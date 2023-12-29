@@ -4,7 +4,7 @@
 
 - [x] _**网页端：htt://juyp.hucl.link**_
 
->快点[点我](http://juyp.hucl.link).
+>快点[点我](https://juyp.hucl.link).
 
 **~~数据不互通~~**
 
