@@ -1,22 +1,31 @@
-fn 404()
+fn juapi()
 t()
 {
-  s url-api ="http://api.hucl.link/"
-  hs(url-api,apiht)
-  syso(apiht)
-  //
-  sj(apiht,"&lt;title&gt;","&lt;/title&gt;",apiyz)
-  f(apiyz ? "404")
+  w(true)
   {
-    uigo("404.iyu")
-    lan(6)
-    end()
-  }
-  else f(apiyz == null)
-  {
-    uigo("404.iyu")
-    lan(6)
-    end()
+    s url ="https://api.hucl.link/api/mryy.php"
+    hs(url,url)
+    syso(url)
+    //
+    f(url ? "404")
+    {
+      uigo("404.iyu")
+      lan(6)
+      end()
+      s tysy ="true"
+    }
+    else f(url == null)
+    {
+      uigo("404.iyu")
+      lan(6)
+      end()
+      s tysy ="true"
+    }
+    f(tysy == "true")
+    {
+      endcode
+    }
+    stop(1000)
   }
 }
 end fn

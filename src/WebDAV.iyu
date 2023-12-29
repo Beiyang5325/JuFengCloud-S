@@ -52,4 +52,4 @@ tws(v,"是否打开 Solid Explorer",0,"打开")
   uapp("pl.solidexplorer2",h)
 }</eventItme><eventItme type="loading">//vpn验证
 fn vpn.vpn()
-uycl(true)</eventItme></UIEventset>
+uycl("#caaeff82",true)</eventItme></UIEventset>

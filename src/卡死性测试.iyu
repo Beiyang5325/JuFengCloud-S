@@ -87,4 +87,4 @@ textColor=#ff000000
 typeface=@acbt80.ttf</ppt>
 <event></event>
 </View>
-<UIEventset><eventItme type="loading">uycl(true)</eventItme></UIEventset>
+<UIEventset><eventItme type="loading">uycl("#caaeff82",true)</eventItme></UIEventset>

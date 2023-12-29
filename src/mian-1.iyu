@@ -25,7 +25,8 @@ end()</eventItme></event>
 <View id="2" did="1" type="CardView">
 <ppt>width=-2
 height=-2
-app_CardcornerRadius=25dp</ppt>
+app_CardcornerRadius=25dp
+visibility=gone</ppt>
 <event></event>
 </View>
 <View id="3" did="2" type="Button">
@@ -132,7 +133,8 @@ background=#96e151b8
 <View id="6" did="1" type="CardView">
 <ppt>width=112dp
 height=-2
-app_CardcornerRadius=15dp</ppt>
+app_CardcornerRadius=15dp
+visibility=gone</ppt>
 <event></event>
 </View>
 <View id="7" did="6" type="EditText">
@@ -149,7 +151,8 @@ background=#bc2fb783</ppt>
 <View id="8" did="1" type="CardView">
 <ppt>width=-2
 height=-2
-app_CardcornerRadius=25dp</ppt>
+app_CardcornerRadius=25dp
+visibility=gone</ppt>
 <event></event>
 </View>
 <View id="9" did="8" type="Button">
@@ -201,7 +204,8 @@ background=#96e151b8</ppt>
 <ppt>width=-2
 height=-2
 app_CardcornerRadius=25dp
-app_CardElevation=25dp</ppt>
+app_CardElevation=25dp
+visibility=gone</ppt>
 <event></event>
 </View>
 <View id="16" did="15" type="Button">
@@ -359,6 +363,7 @@ javax(b, wvs, clws, "setDomStorageEnabled", "boolean", true)
 javax(b, wvs, clws, "setGeolocationEnabled", "boolean", true)
 
 //访问网址
-javax(b, sss.wv, cl, "loadUrl", "String", "http://debugtbs.qq.com/")
+javax(b, sss.wv, cl, "loadUrl", "String", "http://limestart.cn/")
 ss cl = cl
-ss b = b</eventItme></UIEventset>
+ss b = b
+uycl("#caaeff82",true)</eventItme></UIEventset>

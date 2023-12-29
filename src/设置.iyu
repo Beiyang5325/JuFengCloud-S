@@ -383,7 +383,7 @@ t()
 </View>
 <UIEventset><eventItme type="loading">//vpn验证
 fn vpn.vpn()
-uycl("#ffa4ff98",true)
+uycl("#caaeff82",true)
 loadjar("armeabi-v7a/classes.dex",class)
 cls(class,"com.Mus.ReboundScrollView",mB)
 gvs(2,a)
@@ -391,7 +391,7 @@ gvs(2,b)
 javanew(mBs,mB,"Context",activity)
 urvw(2)
 nvw(mBs,1)
-nvw(b,mBs)</eventItme><eventItme type="loadingComplete">uycl(true)
+nvw(b,mBs)</eventItme><eventItme type="loadingComplete">uycl("#caaeff82",true)
 /.
 t()
 {
@@ -445,7 +445,7 @@ f(st_kC==4)
 {
   f(sss.exit==null)
   {
-    lan(0)
+    lan(6)
     uigo("mian1.iyu")
     end()
   }

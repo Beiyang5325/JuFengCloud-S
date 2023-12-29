@@ -96,4 +96,4 @@ layout_marginTop=5dp</ppt>
 </View>
 <UIEventset><eventItme type="loading">//vpn验证
 fn vpn.vpn()
-uycl("#ffa4ff98",true)</eventItme><eventItme type="loadingComplete">uycl(true)</eventItme></UIEventset>
+uycl("#caaeff82",true)</eventItme><eventItme type="loadingComplete">uycl("#caaeff82",true)</eventItme></UIEventset>

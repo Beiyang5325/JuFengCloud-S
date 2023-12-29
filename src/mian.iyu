@@ -45,7 +45,7 @@ layout_marginBottom=35dp</ppt>
 <View id="21" did="20" type="TextView">
 <ppt>width=-2
 height=-2
-text=Version beta1.57
+text=Version 1.57.5
 typeface=@acbt80.ttf
 textIsSelectable=true
 layout_marginBottom=35dp
@@ -55,30 +55,10 @@ textColor=#ffffffff</ppt>
 <UIEventset><eventItme type="downkey">//退出延迟
 f(st_kC==4)
 {
-}</eventItme><eventItme type="loading">//fn 死机.sjnono()
-//fn lib.404()
+}</eventItme><eventItme type="loading">//404验证
+//fn lib.juapi()
 //vpn验证
 fn vpn.vpn()
-//JuFengCloud-URL
-sss url ="https://api.hucl.link"
-//打通性验证
-t()
-{
-  hs(sss.url,url)
-  f(url == null)
-  {
-    sss hlw ="false"
-    ufnsui()
-    {
-      tw("无法正常链接互联网")
-      tts(a,"zh","无法正常链接互联网",1,1)
-    }
-  }
-  else f(sss.url != null)
-  {
-    sss hlw ="true"
-  }
-}
 //官方一言API调用
 s js1 ="{"quote":""
 s js2 =""}"
@@ -126,8 +106,6 @@ uycl(true)
 //启动验证
 sss qdyz ="true"
 //
-//tts(a,"zh","你好，我们是飓风云",1,1)
-//
 t()
 {
   sss admin ="177828525"
@@ -149,20 +127,20 @@ t()
     f(c == null)
     {
       uigo("mian1.iyu")
-      lan(0)
+      lan(6)
       end()
     }
     else f(c != null)
     {
       uigo("mian1.iyu")
-      lan(0)
+      lan(6)
       end()
     }
   }
   else f(b == true)
   {
     uigo("隐私锁.iyu")
-    lan(0)
+    lan(6)
     end()
   }
 }
@@ -193,4 +171,6 @@ t()
     sj(c,"aj：","：aj",sss.aj)
   }
 }
-/.</eventItme></UIEventset>
+./
+//___***---***---***---***---***___
+/.</eventItme></UIEventset>

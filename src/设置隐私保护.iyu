@@ -161,7 +161,7 @@ gravity=center
 textIsSelectable=true</ppt>
 <event></event>
 </View>
-<UIEventset><eventItme type="loading">uycl("#ffa4ff98",true)
+<UIEventset><eventItme type="loading">uycl("#caaeff82",true)
 //vpn验证
 fn vpn.vpn()
 /.
@@ -173,4 +173,4 @@ t()
     us(3,"background",sss.y)
     us(18,"textColor",sss.w)
   }
-}</eventItme><eventItme type="loadingComplete">uycl(true)</eventItme></UIEventset>
+}</eventItme><eventItme type="loadingComplete">uycl("#caaeff82",true)</eventItme></UIEventset>

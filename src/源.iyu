@@ -50,7 +50,11 @@ gravity=center|left</ppt>
 height=-2
 text=获取过程中可能会有稍许卡顿，属于正常情况
 textColor=#ff000000
-typeface=@acbt80.ttf</ppt>
+typeface=@acbt80.ttf
+layout_marginTop=15dp
+layout_marginLeft=15dp
+layout_marginRight=15dp
+layout_marginBottom=15dp</ppt>
 <event></event>
 </View>
 <UIEventset><eventItme type="downkey">//退出延迟
@@ -72,8 +76,7 @@ end()
 }
 }</eventItme><eventItme type="loading">//vpn验证
 fn vpn.vpn()
-//隐藏
-uycl(true)
+uycl("#caaeff82",true)
 //
 t()
 {

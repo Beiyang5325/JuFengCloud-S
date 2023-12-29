@@ -53,4 +53,4 @@ bfm("@ajyx/snes_pop-7a6d3.ogg")</eventItme></event>
 fn vpn.vpn()
 //竖屏
 ushsp(false)
-uycl(true)</eventItme><eventItme type="loadingComplete">uycl(true)</eventItme></UIEventset>
+uycl("#caaeff82",true)</eventItme><eventItme type="loadingComplete">uycl("#caaeff82",true)</eventItme></UIEventset>

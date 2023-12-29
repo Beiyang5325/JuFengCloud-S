@@ -32,6 +32,6 @@ f(st_kC==4)
       bfm("@ajyx/snes_pop-7a6d3.ogg")
     }
   }
-}</eventItme><eventItme type="loadingComplete">uycl(true)</eventItme><eventItme type="loading">//vpn验证
+}</eventItme><eventItme type="loadingComplete">uycl("#caaeff82",true)</eventItme><eventItme type="loading">//vpn验证
 fn vpn.vpn()
-uycl("#ffa4ff98",true)</eventItme></UIEventset>
+uycl("#caaeff82",true)</eventItme></UIEventset>

@@ -48,7 +48,7 @@ textColor=#ff000000</ppt>
 </View>
 <UIEventset><eventItme type="loading">//vpn验证
 fn vpn.vpn()
-uycl(true)
+uycl(true)
 us(3,"url",sss.adyz)
 s adsj ="21"
 t()

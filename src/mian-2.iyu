@@ -1,4 +1,15 @@
-<View id="2" did="0" type="LinearLayout">
+<View id="21" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="23" did="21" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="2" did="23" type="LinearLayout">
 <ppt>width=-1
 height=-2
 orientation=horizontal
@@ -30,29 +41,30 @@ t()
   ufnsui()
   {
     s a ="@20230923_163802_0000.png"
-    s b ="问"
+    s b ="问一下"
     s c ="您是退出本页吗？"
     s d ="退出本页"
-    s e ="后台化本页"
+    s e ="在开一页"
     s f ="点错了"
     utw(a,b,c,d,e,f,false,v)
     {
       bfm("@ajyx/snes_pop-7a6d3.ogg")
-      lan(0)
+      lan(6)
       stop(1500)
       end()
     }
     else
     {
       bfm("@ajyx/snes_pop-7a6d3.ogg")
-      uigo("mian1.iyu")
-      lan(0)
+      uigo("mian-2.iyu")
+      lan(6)
+      sss zcx ="false"
+      end()
     }
     else
     {
       bfm("@ajyx/snes_pop-7a6d3.ogg")
       endutw()
-      tw("是，是，是！！")
     }
   }
 }</eventItme><eventItme type="press">t()
@@ -230,8 +242,12 @@ typeface=@Ex_GameFont.ttf
 gravity=center
 visibility=gone
 background=through</ppt>
-<event><eventItme type="clicki">uigo("mian-2.iyu")
-lan(0)</eventItme></event>
+<event><eventItme type="clicki">ug(mian-2.1,"url",url)
+sss urlqd = url
+sss zcx ="true"
+syso(sss.urlqd)
+uigo("mian-2.iyu")
+lan(6)</eventItme></event>
 </View>
 <View id="22" did="18" type="Button">
 <ppt>width=-2
@@ -243,17 +259,6 @@ background=through
 visibility=gone</ppt>
 <event><eventItme type="clicki">uigo("浏览器全屏修复.iyu")
 lan(6)</eventItme></event>
-</View>
-<View id="21" did="0" type="RelativeLayout">
-<ppt>width=-1
-height=-1</ppt>
-<event></event>
-</View>
-<View id="23" did="21" type="LinearLayout">
-<ppt>width=-1
-height=-1
-orientation=vertical</ppt>
-<event></event>
 </View>
 <View id="24" did="23" type="RelativeLayout">
 <ppt>width=-2
@@ -292,7 +297,10 @@ else
 {
   us(1,"url","@not.html")
   us(mian-2.1,"url","@not.html")
-}</eventItme></event>
+}</eventItme><eventItme type="onpagestarted">//404验证
+//fn lib.juapi()
+//vpn验证
+fn vpn.vpn()</eventItme></event>
 </View>
 <UIEventset><eventItme type="downkey">//退出延迟
 f(st_kC==4)
@@ -421,10 +429,12 @@ t()
     us(15,"gravity","center")
     us(15,"visibility","visible")
   }
-}</eventItme><eventItme type="loading">//vpn验证
+}</eventItme><eventItme type="loading">//404验证
+//fn lib.juapi()
+//vpn验证
 fn vpn.vpn()
 sss mian2 ="false"
-uycl(true)
+uycl("#caaeff82",true)
 /.
 t()
 {
@@ -505,4 +515,37 @@ f(类对象!=null)
 {
 javax(chromeClient,类对象,类,"getWebChromeClient")
 javax(null,浏览器,"android.webkit.WebView","setWebChromeClient","android.webkit.WebChromeClient",chromeClient)
+}
+//
+t()
+{
+  f(sss.zcx == "true")
+  {
+    s urlqd = sss.urlqd
+    ufnsui()
+    {
+      us(1,"url",urlqd)
+    }
+  }
+  else f(sss.zcx == null)
+  {
+    ufnsui()
+    {
+      tw("这正常吗？",0)
+    }
+  }
+  else f(sss.zcx == "false")
+  {
+    ufnsui()
+    {
+      us(1,"url","http://juyp.hucl.link/")
+    }
+  }
+  else
+  {
+    ufnsui()
+    {
+      tw("这正常吗？",0)
+    }
+  }
 }</eventItme></UIEventset>

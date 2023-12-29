@@ -473,7 +473,7 @@ for(id;z)
 ngde(10,"#448AFF",jk)
 us(id,"background",jk)
 }
-uycl(true)
+uycl("#caaeff82",true)
 t()
 {
   s ml ="$欢乐的北洋/JuFengCloud/yhxy/yhxy.jl"
@@ -694,6 +694,7 @@ t()
 <eventItme type="loading">//vpn验证
 fn vpn.vpn()
 //hlw
+/.
 t()
 {
   f(sss.hlw == null)
@@ -701,13 +702,14 @@ t()
     tts(a,"zh","无法正常链接互联网",1,1)
   }
 }
+./
 sss yz ="false"
 sss mian2 ="true"
 //正常启动验证
 f(sss.qdyz != "true")
 {
   tw("未正常启动，正在重新启动",0)
-  lan(0)
+  lan(6)
   uigo("mian.iyu")
   end()
 }
@@ -842,7 +844,7 @@ f(sss.qdyz == "true")
     ufnsui()
     {
       uigo("AD.iyu")
-      lan(0)
+      lan(6)
     }
   }
 }

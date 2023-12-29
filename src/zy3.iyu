@@ -95,7 +95,7 @@ BackgroundRipple=#ffd1d1d1</ppt>
 s nr ="由于API维护，所以暂时无法正常检查更新，版本库依旧开放访问\n\n\n——飓风云"
 ./
 bfm("@ajyx/snes_pop-7a6d3.ogg")
-s bdbbh ="beta1.57"
+s bdbbh ="1.57.5"
 t()
 {
   hs("http://api.hucl.link/JuFengCloud/ybb/ybb.txt",url)
@@ -861,4 +861,6 @@ gvs(45,b)
 javanew(mBs,mB,"Context",activity)
 urvw(45)
 nvw(mBs,1)
-nvw(b,mBs)</eventItme></UIEventset>
+nvw(b,mBs)
+//
+uycl("#caaeff82",true)</eventItme></UIEventset>

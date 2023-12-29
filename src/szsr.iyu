@@ -158,4 +158,4 @@ else
 </View>
 <UIEventset><eventItme type="loading">//vpn验证
 fn vpn.vpn()
-uycl(true)</eventItme></UIEventset>
+uycl("#caaeff82",true)</eventItme></UIEventset>

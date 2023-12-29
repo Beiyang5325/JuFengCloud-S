@@ -10,7 +10,7 @@ orientation=vertical
 height=50dp
 orientation=horizontal
 gravity=center_vertical
-background=#FF5C5E85</ppt>
+background=#caaeff82</ppt>
 <event></event>
 </View>
 <View id="6" did="2" type="TextView">
@@ -68,7 +68,7 @@ textStyle=bold
 textSize=16sp</ppt>
 <event></event>
 </View>
-<UIEventset><eventItme type="loading">uycl("#FF5C5E85",true)</eventItme><eventItme type="downkey">f(st_kC==4)
+<UIEventset><eventItme type="loading">uycl("#caaeff82",true)</eventItme><eventItme type="downkey">f(st_kC==4)
 {
   tws(vpn_no,"请卸载抓包工具后重启本程序！",0)
 }</eventItme></UIEventset>

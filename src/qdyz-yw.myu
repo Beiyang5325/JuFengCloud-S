@@ -1,0 +1,24 @@
+fn ywyz()
+t()
+{
+  w(true)
+  {
+    s url ="https://api.hucl.link/api/mryy.php"
+    hs(url,url)
+    syso(url)
+    //
+    f(url != null)
+    {
+      uigo("mian.iyu")
+      lan(6)
+      end()
+      s yzx ="true"
+    }
+    stop(1000)
+    f(yzx == "true")
+    {
+      endcode
+    }
+  }
+}
+end fn

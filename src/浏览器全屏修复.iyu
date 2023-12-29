@@ -31,7 +31,8 @@ f(类对象!=null)
 {
 javax(chromeClient,类对象,类,"getWebChromeClient")
 javax(null,浏览器,"android.webkit.WebView","setWebChromeClient","android.webkit.WebChromeClient",chromeClient)
-}</eventItme><eventItme type="downkey">f(st_kC == 4)
+}
+uycl("#caaeff82",true)</eventItme><eventItme type="downkey">f(st_kC == 4)
 {
   us(5,"gobackorforward",-1)
 }</eventItme></UIEventset>

@@ -374,7 +374,7 @@ t()
   }
 }</eventItme></event>
 </View>
-<UIEventset><eventItme type="loading">uycl(true)
+<UIEventset><eventItme type="loading">uycl("#caaeff82",true)
 //vpn验证
 fn vpn.vpn()</eventItme><eventItme type="loadingComplete">dha(dh,false,true)
 dh(dh,"duration",2000)
