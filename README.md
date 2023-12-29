@@ -2,7 +2,7 @@
 ## 飓风云-云盘
 飓风云手机软件的开源仓库（iApp）
 
-- [x] _**网页端：htt://juyp.hucl.link**_
+- [x] _**网页端：https://juyp.hucl.link**_
 
 >快点[点我](https://juyp.hucl.link).
 
