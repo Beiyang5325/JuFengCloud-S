@@ -24,7 +24,7 @@
 ## 其他命令段：
 
 1、MC服务器 Termux 安装：
-> 不可用了，以下这个
+> 可用了
 ```ruby
 curl https://api.hucl.link/mc/install/install.sh | bash
 ```
